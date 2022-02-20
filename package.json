@@ -1,0 +1,32 @@
+{
+	"name": "ipa-chart",
+	"version": "0.0.1",
+	"description": "A phonetics toolkit to help me with language learning",
+	"source": "src/index.html",
+	"browserslist": "default",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/serverhiccups/ipa-chart.git"
+	},
+	"author": "serverhiccups",
+	"license": "CC-BY-SA-4.0",
+	"bugs": {
+		"url": "https://github.com/serverhiccups/ipa-chart/issues"
+	},
+	"homepage": "https://github.com/serverhiccups/ipa-chart#readme",
+	"private": true,
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.2.1",
+		"@types/mithril": "^2.0.8",
+		"parcel": "^2.2.1"
+	},
+	"dependencies": {
+		"@emotion/css": "^11.7.1",
+		"mithril": "^2.0.4"
+	}
+}

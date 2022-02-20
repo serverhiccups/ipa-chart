@@ -1,0 +1,62 @@
+.mainconsonants {
+	display: inline-block;
+	& > .chart {
+		display: grid;
+		gap: 0.25rem;
+		grid-template-columns: 11rem repeat(22, 2rem);
+		grid-template-rows: 3rem repeat(8, 2rem);
+
+		& > .toplabel {
+			grid-row: 1;
+			word-break: normal;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			justify-content: flex-end;
+			background-color: var(--secondary-highlight);
+			border-top-left-radius: 0.5rem;
+			border-top-right-radius: 0.5rem;
+			padding-bottom: 0.25rem;
+		}
+		@for $i from 1 through 11 {
+			& > #toplabel-#{$i} {
+				grid-column-start: #{($i * 2)};
+				// grid-column-end: span #{$i + 3};
+				grid-column-end: span 2;
+			}
+		}
+
+		& > .sidelabel {
+			grid-column: 1;
+			background-color: var(--secondary-highlight);
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-end;
+			padding-right: 0.5rem;
+			border-top-left-radius: 0.5rem;
+			border-bottom-left-radius: 0.5rem;
+		}
+		@for $i from 1 through 11 {
+			& > #sidelabel-#{$i} {
+				grid-row: #{$i + 1};
+				// grid-column-end: span #{$i + 3};
+			}
+		}
+		& > .impossibleblank {
+			background-color: var(--disabled-colour);
+			border-radius: 0.25rem;
+		}
+		& > .possibleblank {
+			background-color: var(--secondary-disabled-colour);
+			border-radius: 0.25rem;
+		}
+	}
+	& > .infoText {
+		margin-top: 0.75rem;
+		margin-bottom: 0.75rem;
+		display: block;
+		text-align: center;
+	}
+}

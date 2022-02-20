@@ -1,0 +1,1005 @@
+{
+	"consonants": [
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Bilabial Plosive",
+			"character": "p",
+			"row": 0,
+			"column": 0
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Bilabial Plosive",
+			"character": "b",
+			"row": 0,
+			"column": 1
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Alveolar Plosive",
+			"character": "t",
+			"row": 0,
+			"column": 4,
+			"width": 3,
+			"align": "right"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Plosive",
+			"character": "d",
+			"row": 0,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Retroflex Plosive",
+			"character": "ʈ",
+			"row": 0,
+			"column": 10
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Plosive",
+			"character": "ɖ",
+			"row": 0,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Palatal Plosive",
+			"character": "c",
+			"row": 0,
+			"column": 12
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Palatal Plosive",
+			"character": "ɟ",
+			"row": 0,
+			"column": 13
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Velar Plosive",
+			"character": "k",
+			"row": 0,
+			"column": 14
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Velar Plosive",
+			"character": "g",
+			"row": 0,
+			"column": 15
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Uvular Plosive",
+			"character": "q",
+			"row": 0,
+			"column": 16
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Uvular Plosive",
+			"character": "ɢ",
+			"row": 0,
+			"column": 17
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Glottal Plosive",
+			"character": "ʔ",
+			"row": 0,
+			"column": 20
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Bilabial Nasal",
+			"character": "m",
+			"row": 1,
+			"column": 1
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Labiodental Nasal",
+			"character": "ɱ",
+			"row": 1,
+			"column": 3
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Nasal",
+			"character": "n",
+			"row": 1,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Nasal",
+			"character": "ɳ",
+			"row": 1,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Palatal Nasal",
+			"character": "ɲ",
+			"row": 1,
+			"column": 13
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Velar Nasal",
+			"character": "ŋ",
+			"row": 1,
+			"column": 15
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Uvular Nasal",
+			"character": "ɴ",
+			"row": 1,
+			"column": 17
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Bilabial Trill",
+			"character": "ʙ",
+			"row": 2,
+			"column": 1
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Trill",
+			"character": "r",
+			"row": 2,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Uvular Trill",
+			"character": "ʀ",
+			"row": 2,
+			"column": 17
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Labiodental Tap",
+			"character": "ⱱ",
+			"row": 3,
+			"column": 3
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Tap",
+			"character": "ɾ",
+			"row": 3,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Tap",
+			"character": "ɽ",
+			"row": 3,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Bilabial Fricative",
+			"character": "ɸ",
+			"row": 4,
+			"column": 0
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Bilabial Fricative",
+			"character": "β",
+			"row": 4,
+			"column": 1
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Labiodental Fricative",
+			"character": "f",
+			"row": 4,
+			"column": 2
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Labiodental Fricative",
+			"character": "v",
+			"row": 4,
+			"column": 3
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Dental Fricative",
+			"character": "θ",
+			"row": 4,
+			"column": 4
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Dental Fricative",
+			"character": "ð",
+			"row": 4,
+			"column": 5
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Alveolar Fricative",
+			"character": "s",
+			"row": 4,
+			"column": 6
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Fricative",
+			"character": "z",
+			"row": 4,
+			"column": 7
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Postalveolar Fricative",
+			"character": "ʃ",
+			"row": 4,
+			"column": 8
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Postalveolar Fricative",
+			"character": "ʒ",
+			"row": 4,
+			"column": 9
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Retroflex Fricative",
+			"character": "ʂ",
+			"row": 4,
+			"column": 10
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Fricative",
+			"character": "ʐ",
+			"row": 4,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Palatal Fricative",
+			"character": "ç",
+			"row": 4,
+			"column": 12
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Palatal Fricative",
+			"character": "ʝ",
+			"row": 4,
+			"column": 13
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Velar Fricative",
+			"character": "x",
+			"row": 4,
+			"column": 14
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Velar Fricative",
+			"character": "ɣ",
+			"row": 4,
+			"column": 15
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Uvular Fricative",
+			"character": "χ",
+			"row": 4,
+			"column": 16
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Uvular Fricative",
+			"character": "ʁ",
+			"row": 4,
+			"column": 17
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Pharyngeal Fricative",
+			"character": "ħ",
+			"row": 4,
+			"column": 18
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Pharyngeal Fricative",
+			"character": "ʕ",
+			"row": 4,
+			"column": 19
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Glottal Fricative",
+			"character": "h",
+			"row": 4,
+			"column": 20
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Glottal Fricative",
+			"character": "ɦ",
+			"row": 4,
+			"column": 21
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiceless Alveolar Lateral Fricative",
+			"character": "ɬ",
+			"row": 5,
+			"column": 4,
+			"width": 3,
+			"align": "right"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Lateral Fricative",
+			"character": "ɮ",
+			"row": 5,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Labiodental Approximant",
+			"character": "ʋ",
+			"row": 6,
+			"column": 3
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Approximant",
+			"character": "ɹ",
+			"row": 6,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Approximant",
+			"character": "ɻ",
+			"row": 6,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Palatal Approximant",
+			"character": "j",
+			"row": 6,
+			"column": 13
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Velar Approximant",
+			"character": "ɰ",
+			"row": 6,
+			"column": 15
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Alveolar Lateral Approximant",
+			"character": "l",
+			"row": 7,
+			"column": 7,
+			"width": 3,
+			"align": "left"
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Retroflex Lateral Approximant",
+			"character": "ɭ",
+			"row": 7,
+			"column": 11
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Palatal Lateral Approximant",
+			"character": "ʎ",
+			"row": 7,
+			"column": 13
+		},
+		{
+			"kind": "MAIN_CONSONANT",
+			"name": "Voiced Velar Lateral Approximant",
+			"character": "ʟ",
+			"row": 7,
+			"column": 15
+		}
+	],
+	"vowels": [
+		{
+			"kind": "VOWEL",
+			"name": "Close Front Unrounded Vowel",
+			"character": "i",
+			"row": 0,
+			"place": 0,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close Front Rounded Vowel",
+			"character": "y",
+			"row": 0,
+			"place": 0,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close Central Unrounded Vowel",
+			"character": "ɨ",
+			"row": 0,
+			"place": 5,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close Central Rounded Vowel",
+			"character": "ʉ",
+			"row": 0,
+			"place": 5,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close Back Unrounded Vowel",
+			"character": "ɯ",
+			"row": 0,
+			"place": 12,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close Back Rounded Vowel",
+			"character": "u",
+			"row": 0,
+			"place": 12,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Near-close Front Unrounded Vowel",
+			"character": "ɪ",
+			"row": 1,
+			"place": 2,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Near-close Front Rounded Vowel",
+			"character": "ʏ",
+			"row": 1,
+			"place": 2,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Near-close Near-back Rounded Vowel",
+			"character": "ʊ",
+			"row": 1,
+			"place": 11,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Front Unrounded Vowel",
+			"character": "e",
+			"row": 2,
+			"place": 1,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Front Rounded Vowel",
+			"character": "ø",
+			"row": 2,
+			"place": 1,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Central Unrounded Vowel",
+			"character": "ɘ",
+			"row": 2,
+			"place": 6,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Central Rounded Vowel",
+			"character": "ɵ",
+			"row": 2,
+			"place": 6,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Back Unrounded Vowel",
+			"character": "ɤ",
+			"row": 2,
+			"place": 12,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Close-mid Back Rounded Vowel",
+			"character": "o",
+			"row": 2,
+			"place": 12,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Mid Central Vowel",
+			"character": "ə",
+			"row": 3,
+			"place": 9,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Front Unrounded Vowel",
+			"character": "ɛ",
+			"row": 4,
+			"place": 3,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Front Rounded Vowel",
+			"character": "œ",
+			"row": 4,
+			"place": 3,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Central Unrounded Vowel",
+			"character": "ɜ",
+			"row": 4,
+			"place": 8,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Central Rounded Vowel",
+			"character": "ɞ",
+			"row": 4,
+			"place": 8,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Back Unrounded Vowel",
+			"character": "ʌ",
+			"row": 4,
+			"place": 12,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open-mid Back Rounded Vowel",
+			"character": "ɔ",
+			"row": 4,
+			"place": 12,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Near-open Front Unrounded Vowel",
+			"character": "æ",
+			"row": 5,
+			"place": 4,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Near-open Central Vowel",
+			"character": "ɐ",
+			"row": 5,
+			"place": 10,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open Front Unrounded Vowel",
+			"character": "a",
+			"row": 6,
+			"place": 5,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open Front Rounded Vowel",
+			"character": "ɶ",
+			"row": 6,
+			"place": 5,
+			"rounded": true
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open Back Unrounded Vowel",
+			"character": "ɑ",
+			"row": 6,
+			"place": 12,
+			"rounded": false
+		},
+		{
+			"kind": "VOWEL",
+			"name": "Open Back Unrounded Vowel",
+			"character": "ɒ",
+			"row": 6,
+			"place": 12,
+			"rounded": true
+		}
+	],
+	"impossibleBlanks": [
+		{
+			"column": 19,
+			"row": 0,
+			"width": 1
+		},
+		{
+			"column": 21,
+			"row": 0,
+			"width": 1
+		},
+		{
+			"column": 18,
+			"row": 1,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 1,
+			"width": 2
+		},
+		{
+			"column": 14,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 14,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 0,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 2,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 6,
+			"width": 2
+		},
+		{
+			"column": 0,
+			"row": 7,
+			"width": 2
+		},
+		{
+			"column": 2,
+			"row": 7,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 7,
+			"width": 2
+		},
+		{
+			"column": 20,
+			"row": 7,
+			"width": 2
+		}
+	],
+	"possibleBlanks": [
+		{
+			"column": 2,
+			"row": 0,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 0,
+			"width": 1
+		},
+		{
+			"column": 0,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 2,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 4,
+			"row": 1,
+			"width": 2
+		},
+		{
+			"column": 6,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 10,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 12,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 14,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 16,
+			"row": 1,
+			"width": 1
+		},
+		{
+			"column": 0,
+			"row": 2,
+			"width": 1
+		},
+		{
+			"column": 2,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 4,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 6,
+			"row": 2,
+			"width": 1
+		},
+		{
+			"column": 10,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 12,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 16,
+			"row": 2,
+			"width": 1
+		},
+		{
+			"column": 18,
+			"row": 2,
+			"width": 2
+		},
+		{
+			"column": 0,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 2,
+			"row": 3,
+			"width": 1
+		},
+		{
+			"column": 4,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 6,
+			"row": 3,
+			"width": 1
+		},
+		{
+			"column": 10,
+			"row": 3,
+			"width": 1
+		},
+		{
+			"column": 12,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 16,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 3,
+			"width": 2
+		},
+		{
+			"column": 10,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 12,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 14,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 16,
+			"row": 5,
+			"width": 2
+		},
+		{
+			"column": 0,
+			"row": 6,
+			"width": 2
+		},
+		{
+			"column": 2,
+			"row": 6,
+			"width": 1
+		},
+		{
+			"column": 4,
+			"row": 6,
+			"width": 2
+		},
+		{
+			"column": 6,
+			"row": 6,
+			"width": 1
+		},
+		{
+			"column": 10,
+			"row": 6,
+			"width": 1
+		},
+		{
+			"column": 12,
+			"row": 6,
+			"width": 1
+		},
+		{
+			"column": 14,
+			"row": 6,
+			"width": 1
+		},
+		{
+			"column": 16,
+			"row": 6,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 6,
+			"width": 2
+		},
+		{
+			"column": 4,
+			"row": 7,
+			"width": 2
+		},
+		{
+			"column": 6,
+			"row": 7,
+			"width": 1
+		},
+		{
+			"column": 10,
+			"row": 7,
+			"width": 1
+		},
+		{
+			"column": 12,
+			"row": 7,
+			"width": 1
+		},
+		{
+			"column": 14,
+			"row": 7,
+			"width": 1
+		},
+		{
+			"column": 16,
+			"row": 7,
+			"width": 2
+		},
+		{
+			"column": 18,
+			"row": 7,
+			"width": 2
+		}
+	],
+	"labels": {
+		"places": [
+			"Bilabial",
+			"Labio-dental",
+			"Dental",
+			"Alveolar",
+			"Post-alveolar",
+			"Retroflex",
+			"Palatal",
+			"Velar",
+			"Uvular",
+			"Phary-ngeal",
+			"Glottal"
+		],
+		"manners": [
+			"Plosive",
+			"Nasal",
+			"Trill",
+			"Tap or Flap",
+			"Fricative",
+			"Lateral Fricative",
+			"Approximant",
+			"Lateral Approximant"
+		]
+	}
+}

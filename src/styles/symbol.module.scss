@@ -1,0 +1,34 @@
+.symbol {
+	background-color: var(--main-highlight);
+	border-radius: 0.25rem;
+	color: var(--text-on-highlight);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25rem;
+	// font-weight: 500;
+	& > span {
+		width: 2rem;
+		text-align: center;
+	}
+}
+
+.symbolVowel {
+	max-width: 2rem;
+	& > span {
+		max-width: 2rem;
+	}
+}
+
+.symbol-left {
+	& > span {
+		align-self: flex-start;
+	}
+}
+
+.symbol-right {
+	& > span {
+		align-self: flex-end;
+	}
+}

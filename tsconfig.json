@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"jsxFactory": "m",
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"target": "ES6",
+		"moduleResolution": "node",
+		"module": "es2020"
+	}
+}

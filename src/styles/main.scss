@@ -1,0 +1,24 @@
+@use "normalize.css";
+@import "fonts/CharisSIL-webfont.css";
+
+:root {
+	--main-highlight: rgb(197, 6, 197);
+	--secondary-highlight: rgb(253, 136, 253);
+	--disabled-colour: rgb(189, 189, 189);
+	--text-on-highlight: white;
+	--secondary-disabled-colour: rgb(221, 221, 221);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	font-family: CharisSILW, serif;
+	margin: 0;
+}

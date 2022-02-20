@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="600" viewBox="0 0 810 610" preserveAspectRatio="xMidYMid meet">
+    <!-- Main outer box-->
+    <polygon points="5 5 805 5 805 605 405 605" stroke="black" fill="transparent" stroke-width="10" stroke-linejoin="round"/>
+    <!-- Vertical line -->
+    <line x1="605" x2="405" y1="605" y2="5" stroke="black" stroke-width="10"/>
+    <!-- Horizontal lines -->
+    <line x1="140" x2="805" y1="205" y2="205" stroke="black" stroke-width="10"/>
+    <line x1="270" x2="805" y1="405" y2="405" stroke="black" stroke-width="10"/>
+</svg>
