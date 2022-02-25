@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"jsx": "react",
-		"jsxFactory": "m",
+		"jsxFactory": "h",
+		"jsxFragmentFactory": "Fragment",
 		"isolatedModules": true,
 		"esModuleInterop": true,
 		"resolveJsonModule": true,

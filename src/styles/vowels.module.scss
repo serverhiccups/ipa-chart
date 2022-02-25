@@ -2,93 +2,71 @@
 @use "sass:list";
 
 .vowels {
-	display: inline-block;
+	display: inline-grid;
+	height: 21rem;
+	grid-template-columns: repeat(3, calc(28rem / 3)) 10rem;
+	grid-template-rows: 3.25rem [labels-start] 2rem repeat(6, 1fr 2rem) [labels-end];
 }
 
-@function quick-sort($list) {
-	$less: ();
-	$equal: ();
-	$large: ();
+.title {
+	grid-row: 1;
+	grid-column: 4;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 0.25rem;
+	& > span {
+		font-size: 2rem;
+	}
+}
 
-	@if length($list) > 1 {
-		$seed: nth($list, ceil(math.div(length($list), 2)));
+.toplabel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 0.25rem;
+	font-size: 1.25rem;
+}
 
-		@each $item in $list {
-			@if ($item == $seed) {
-				$equal: append($equal, $item);
-			} @else if ($item < $seed) {
-				$less: append($less, $item);
-			} @else if ($item > $seed) {
-				$large: append($large, $item);
-			}
+@for $i from 0 through 2 {
+	#toplabel-#{$i} {
+		grid-column: #{($i + 1)};
+		@if $i == 0 {
+			padding-right: 1.5rem;
 		}
-
-		@return join(join(quick-sort($less), $equal), quick-sort($large));
-	}
-
-	@return $list;
-}
-
-@function convertToGaps($lines) {
-	$last: 0;
-	$gaps: ();
-	@each $line in $lines {
-		$gaps: list.append($gaps, $line - $last);
-		$last: $line;
-	}
-	@return $gaps();
-}
-
-@function centerPoints() {
-	$svgWidth: 810;
-	$svgHeight: 610;
-	$svgHeightEm: 21rem;
-	$scaleFactor: math.div($svgHeightEm, $svgWidth);
-	$centersPixels: 5, 140, 205, 270, 337.5, 405, 470, 505, 540, 572.5, 605, 805;
-	$centersEm: ();
-	@each $center in $centersPixels {
-		$centersEm: list.append($centersEm, $center * $scaleFactor);
-	}
-	@return $centersEm;
-}
-
-@function toHolders($centers) {
-	$output: ();
-	$offsets: (-3rem -0.5rem 0.5rem 3rem);
-	@each $center in $centers {
-		@each $offset in $offsets {
-			$output: list.append($output, $center + $offset);
+		@if $i == 2 {
+			padding-left: 1.5rem;
 		}
 	}
-	@return $output;
 }
 
-@function rezeroList($list) {
-	$first: list.nth($list, 1);
-	@for $i from 1 to list.length($list) {
-		$list: list.set-nth($list, $i, list.nth($list, $i) - $first);
+.sidelabel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+@for $i from 0 through 6 {
+	#sidelabel-#{$i} {
+		grid-row: #{($i * 2) + 2};
 	}
-	@return $list;
-}
-
-@function composeFinalList() {
-	@return convertToGaps(quick-sort(rezeroList(toHolders(centerPoints()))));
 }
 
 .grid {
-	/*
-        810px wide image.
-        the first center line is at 5px
-        5px, 140px, 270px, 405px, 470px, 540px, 605px, 805px
-    */
-	display: inline-grid;
-	height: 21rem;
-	grid-template-rows: [el-top row-start] 1rem [lines-top] 1rem [row-end] repeat(
+	display: grid;
+	grid-row: labels-start / labels-end;
+	grid-column: 1 / 4;
+	height: 17.75rem;
+	grid-template-rows:
+		[el-top row-start] 1rem [lines-top] 1rem [row-end] repeat(
 			5,
 			1fr [row-start] 2rem [row-end]
-		) 1fr [row-start] 1rem [lines-bottom] 1rem [el-bottom row-end];
+		)
+		1fr [row-start] 1rem [lines-bottom] 1rem [el-bottom row-end];
 	grid-template-columns: [el-left] 1rem [lines-left] auto [lines-right] 1rem [el-right];
-	padding-top: 3.25rem;
 	& > .lines {
 		grid-row: lines-top / lines-bottom;
 		grid-column: lines-left / lines-right;

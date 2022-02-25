@@ -1,10 +1,22 @@
 .mainconsonants {
 	display: inline-block;
+	overflow-x: scroll;
 	& > .chart {
 		display: grid;
 		gap: 0.25rem;
 		grid-template-columns: 11rem repeat(22, 2rem);
 		grid-template-rows: 3rem repeat(8, 2rem);
+
+		& > .title {
+			grid: 1 / 1;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			& > span {
+				font-size: 2rem;
+			}
+		}
 
 		& > .toplabel {
 			grid-row: 1;

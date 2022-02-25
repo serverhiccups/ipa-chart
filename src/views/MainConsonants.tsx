@@ -1,4 +1,4 @@
-import m from "mithril";
+import { h, Component } from "preact";
 import { css, cx } from "@emotion/css";
 
 import Controller from "../controllers/Controller";
@@ -7,27 +7,33 @@ import IPASymbolView from "./IPASymbolView";
 
 import style from "../styles/main-consonants.module.scss";
 
-export default class MainConsonants {
+interface Props {
 	controller: Controller;
+}
+
+export default class MainConsonants extends Component<Props> {
 	model: IPASymbolModel;
 
-	constructor(props) {
-		this.controller = props.attrs.controller;
-		this.model = this.controller.ipaSymbolModel;
+	constructor(props: Props) {
+		super(props);
+		this.model = props.controller.ipaSymbolModel;
 	}
 
-	view() {
+	render() {
 		return (
 			<div class={style.mainconsonants}>
 				<div class={style.chart}>
-					{this.model.data.labels.places.map((l, i) => {
+					<div class={style.title}>
+						<span>Consonants</span>
+					</div>
+					{this.model.data.labels.cplaces.map((l, i) => {
 						return (
 							<div class={style.toplabel} id={style["toplabel-" + (i + 1)]}>
 								{l}
 							</div>
 						);
 					})}
-					{this.model.data.labels.manners.map((l, i) => {
+					{this.model.data.labels.cmanners.map((l, i) => {
 						return (
 							<div class={style.sidelabel} id={style["sidelabel-" + (i + 1)]}>
 								{l}
@@ -37,14 +43,12 @@ export default class MainConsonants {
 					{this.model.data.consonants.map((c) => {
 						return (
 							<IPASymbolView
-								class={cx(
-									css({
-										gridColumnStart: c.column + 2,
-										gridColumnEnd:
-											c.column + 2 + (c.width != undefined ? c.width : 1),
-										gridRow: c.row + 2,
-									})
-								)}
+								style={{
+									gridColumnStart: c.column + 2,
+									gridColumnEnd:
+										c.column + 2 + (c.width != undefined ? c.width : 1),
+									gridRow: c.row + 2,
+								}}
 								symbol={c}
 							/>
 						);
@@ -67,15 +71,13 @@ export default class MainConsonants {
 					{this.model.data.possibleBlanks.map((b) => {
 						return (
 							<div
-								class={cx(
-									style.possibleblank,
-									css({
-										gridColumnStart: b.column + 2,
-										gridColumnEnd:
-											b.column + 2 + (b.width != undefined ? b.width : 1),
-										gridRow: b.row + 2,
-									})
-								)}
+								class={style.possibleblank}
+								style={{
+									gridColumnStart: b.column + 2,
+									gridColumnEnd:
+										b.column + 2 + (b.width != undefined ? b.width : 1),
+									gridRow: b.row + 2,
+								}}
 							></div>
 						);
 					})}

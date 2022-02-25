@@ -1,21 +1,28 @@
-import m from "mithril";
+import { h, Component } from "preact";
 import Controller from "./controllers/Controller";
 
+import Navbar from "./views/Navbar";
 import MainConsonants from "./views/MainConsonants";
 import Vowels from "./views/Vowels";
 
 import style from "./styles/app.module.scss";
 
-export default class App {
+interface Props {
+	controller: Controller;
+}
+
+export default class App extends Component<Props> {
 	controller: Controller;
 
-	constructor(controller) {
-		this.controller = controller;
+	constructor(props: Props) {
+		super();
+		this.controller = props.controller;
 	}
 
-	view() {
+	render() {
 		return (
 			<div id="app">
+				<Navbar></Navbar>
 				<div class={style.charts}>
 					<MainConsonants controller={this.controller}></MainConsonants>
 					<Vowels controller={this.controller}></Vowels>

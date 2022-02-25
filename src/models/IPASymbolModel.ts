@@ -6,8 +6,10 @@ interface IPASymbolData {
 	impossibleBlanks: Array<IPASymbolBlank>;
 	possibleBlanks: Array<IPASymbolBlank>;
 	labels: {
-		places: Array<string>;
-		manners: Array<string>;
+		cplaces: Array<string>;
+		cmanners: Array<string>;
+		vtop: Array<string>;
+		vside: Array<string>;
 	};
 }
 
@@ -34,7 +36,7 @@ export interface IPASymbolVowel extends IPASymbol {
 export interface IPASymbol {
 	kind: string;
 	name: string;
-	soundFile?: string;
+	audio?: string;
 	character: string;
 }
 

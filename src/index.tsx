@@ -1,11 +1,8 @@
-import m from "mithril";
+import { h, render } from "preact";
 
 import App from "./App";
 import Controller from "./controllers/Controller";
 
 let controller = new Controller();
-let app = new App(controller);
 
-m.route(document.body, "/", {
-	"/": app,
-});
+render(<App controller={controller} />, document.body);

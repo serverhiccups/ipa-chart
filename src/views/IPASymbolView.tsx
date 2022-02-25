@@ -1,41 +1,50 @@
-import m from "mithril";
+import { h, Component } from "preact";
 import { cx } from "@emotion/css";
 
 import { IPASymbol } from "../models/IPASymbolModel";
 
-import style from "../styles/symbol.module.scss";
+import styles from "../styles/symbol.module.scss";
 
-export default class IPASymbolView {
+interface Props {
 	symbol: IPASymbol;
-	classNames: string;
+	style: h.JSX.CSSProperties;
+}
 
-	constructor(props) {
-		this.symbol = props.attrs.symbol;
-		this.classNames = props.attrs.class;
+export default class IPASymbolView extends Component<Props> {
+	constructor(props: Props) {
+		super(props);
 	}
 
-	view() {
+	play() {
+		const u = `/sounds/${this.props.symbol.audio}`;
+		// const u = `/sounds/Hot Steppa.mp3`;
+		const a: HTMLAudioElement = new Audio(u);
+		a.play();
+	}
+
+	render() {
 		return (
 			<div
-				class={cx(
-					{ [style.symbol]: true },
-					{ [this.classNames]: true },
-					{ [style.symbolVowel]: this.symbol.kind == "VOWEL" },
+				{...this.props}
+				className={cx(
+					{ [styles.symbol]: true },
+					{ [styles.symbolVowel]: this.props.symbol.kind == "VOWEL" },
 					{
-						[style["symbol-left"]]:
-							this.symbol.kind == "MAIN_CONSONANT" &&
+						[styles["symbol-left"]]:
+							this.props.symbol.kind == "MAIN_CONSONANT" &&
 							//@ts-ignore
-							this.symbol.align == "left",
+							this.props.symbol.align == "left",
 					},
 					{
-						[style["symbol-right"]]:
-							this.symbol.kind == "MAIN_CONSONANT" &&
+						[styles["symbol-right"]]:
+							this.props.symbol.kind == "MAIN_CONSONANT" &&
 							//@ts-ignore
-							this.symbol.align == "right",
+							this.props.symbol.align == "right",
 					}
 				)}
+				onClick={() => this.play()}
 			>
-				<span>{this.symbol.character}</span>
+				<span>{this.props.symbol.character}</span>
 			</div>
 		);
 	}
