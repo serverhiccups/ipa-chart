@@ -23,7 +23,7 @@ function centerPoints() {
 const centers = centerPoints();
 
 interface Props {
-	controller: Controller;
+	model: IPASymbolModel;
 }
 
 export default class Vowels extends Component<Props> {
@@ -31,7 +31,7 @@ export default class Vowels extends Component<Props> {
 
 	constructor(props) {
 		super(props);
-		this.model = props.controller;
+		this.model = props.model;
 	}
 
 	render() {
@@ -40,14 +40,14 @@ export default class Vowels extends Component<Props> {
 				<div class={styles.title}>
 					<span>Vowels</span>
 				</div>
-				{this.props.controller.ipaSymbolModel.data.labels.vtop.map((l, i) => {
+				{this.model.data.labels.vtop.map((l, i) => {
 					return (
 						<div class={styles.toplabel} id={styles["toplabel-" + i]}>
 							<span>{l}</span>
 						</div>
 					);
 				})}
-				{this.props.controller.ipaSymbolModel.data.labels.vside.map((l, i) => {
+				{this.model.data.labels.vside.map((l, i) => {
 					return (
 						<div class={styles.sidelabel} id={styles["sidelabel-" + i]}>
 							<span>{l}</span>
@@ -60,7 +60,7 @@ export default class Vowels extends Component<Props> {
 						src={vowelGrid.toString()}
 						alt="The vowel grid chart"
 					/>
-					{this.props.controller.ipaSymbolModel.data.vowels.map((v) => {
+					{this.model.data.vowels.map((v) => {
 						return (
 							<IPASymbolView
 								style={{

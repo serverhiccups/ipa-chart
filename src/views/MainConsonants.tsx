@@ -8,7 +8,7 @@ import IPASymbolView from "./IPASymbolView";
 import style from "../styles/main-consonants.module.scss";
 
 interface Props {
-	controller: Controller;
+	model: IPASymbolModel;
 }
 
 export default class MainConsonants extends Component<Props> {
@@ -16,7 +16,7 @@ export default class MainConsonants extends Component<Props> {
 
 	constructor(props: Props) {
 		super(props);
-		this.model = props.controller.ipaSymbolModel;
+		this.model = props.model;
 	}
 
 	render() {
