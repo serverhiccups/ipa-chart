@@ -1,0 +1,21 @@
+.faqhelp {
+	display: inline;
+	max-width: 30rem;
+	& > .title {
+		display: inline-flex;
+		height: 3.25rem;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		font-size: 2rem;
+	}
+	& > .list {
+		padding-left: 0;
+		list-style: none;
+		& > li {
+			& > span {
+				font-weight: bold;
+			}
+		}
+	}
+}
