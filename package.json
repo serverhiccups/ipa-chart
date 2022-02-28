@@ -3,7 +3,6 @@
 	"version": "0.0.1",
 	"description": "A phonetics toolkit to help me with language learning",
 	"source": "src/index.html",
-	"browserslist": "default",
 	"scripts": {
 		"start": "parcel",
 		"build": "parcel build",
