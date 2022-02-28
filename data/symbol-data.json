@@ -745,6 +745,91 @@
 			"audio": "Open Back Rounded Vowel.ogg"
 		}
 	],
+	"nonpulmonic": {
+		"clicks": [
+			{
+				"kind": "CLICK",
+				"name": "Bilabial Click",
+				"description": "Bilabial",
+				"character": "ʘ",
+				"audio": "Bilabial Click.ogg"
+			},
+			{
+				"kind": "CLICK",
+				"name": "Dental Click",
+				"description": "Dental",
+				"character": "ǀ",
+				"audio": "Dental Click.ogg"
+			},
+			{
+				"kind": "CLICK",
+				"name": "(Post)alveolar Click",
+				"description": "(Post)alveolar",
+				"character": "ǃ",
+				"audio": "(Post)alveolar Click.ogg"
+			},
+			{
+				"kind": "CLICK",
+				"name": "Palatoalveolar Click",
+				"description": "Palatoalveolar",
+				"character": "ǂ",
+				"audio": "Palatoalveolar Click.ogg"
+			},
+			{
+				"kind": "CLICK",
+				"name": "Alveolar Lateral Click",
+				"description": "Alveolar Lateral",
+				"character": "ǁ",
+				"audio": "Alveolar Lateral Click.ogg"
+			}
+		],
+		"implosives": [
+			{
+				"kind": "IMPLOSIVE",
+				"name": "Voiced Bilabial Implosive",
+				"description": "Bilabial",
+				"character": "ɓ",
+				"audio": "Voiced Bilabial Implosive.ogg"
+			},
+			{
+				"kind": "IMPLOSIVE",
+				"name": "Voiced Dental/Alveolar Implosive",
+				"description": "Dental/alveolar",
+				"character": "ɗ",
+				"audio": "Voiced Dental-Alveolar Implosive.ogg"
+			},
+			{
+				"kind": "IMPLOSIVE",
+				"name": "Voiced Palatal Implosive",
+				"description": "Palatal",
+				"character": "ʄ",
+				"audio": "Voiced Palatal Implosive.ogg"
+			},
+			{
+				"kind": "IMPLOSIVE",
+				"name": "Voiced Velar Implosive",
+				"description": "Velar",
+				"character": "ɠ",
+				"audio": "Voiced Velar Implosive.ogg"
+			},
+			{
+				"kind": "IMPLOSIVE",
+				"name": "Voiced Uvular Implosive",
+				"description": "Uvular",
+				"character": "ʛ",
+				"audio": "Voiced Uvular Implosive.ogg"
+			}
+		],
+		"ejectives": [
+			{
+				"kind": "EJECTIVE",
+				"name": "Bilabial Ejective",
+				"description": "Bilabial",
+				"character": "pʼ",
+				"audio": "Bilabial Ejective.ogg"
+			}
+		]
+	},
 	"impossibleBlanks": [
 		{ "column": 19, "row": 0, "width": 1 },
 		{ "column": 21, "row": 0, "width": 1 },
@@ -845,6 +930,7 @@
 			"Open-mid",
 			"Near-open",
 			"Open"
-		]
+		],
+		"nonpulmonic": ["Clicks", "Voiced Implosives", "Ejectives"]
 	}
 }

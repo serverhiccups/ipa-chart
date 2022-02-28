@@ -3,9 +3,9 @@
 
 .vowels {
 	display: inline-grid;
-	height: 21rem;
+	height: 23.65rem;
 	grid-template-columns: repeat(3, calc(28rem / 3)) 10rem;
-	grid-template-rows: 3.25rem [labels-start] 2rem repeat(6, 1fr 2rem) [labels-end];
+	grid-template-rows: 3.25rem [labels-start] 2rem repeat(6, 1fr 2rem) [labels-end] 2.65rem;
 }
 
 .title {
@@ -72,4 +72,13 @@
 		height: 100%;
 		width: calc(21rem + 2rem + 0.5rem + 2rem + 0.5rem);
 	}
+}
+
+.infotext {
+	grid-column: 1 / span 4;
+	grid-row: 15;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }

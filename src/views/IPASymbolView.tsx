@@ -8,7 +8,7 @@ import styles from "../styles/symbol.module.scss";
 
 interface Props {
 	symbol: IPASymbol;
-	style: h.JSX.CSSProperties;
+	style?: h.JSX.CSSProperties;
 }
 
 export default function IPASymbolView(props: Props) {
@@ -35,8 +35,9 @@ export default function IPASymbolView(props: Props) {
 							}
 						)}
 						onClick={() => {
-							player.play(`/sounds/${this.props.symbol.audio}`);
+							player.play(`/sounds/${props.symbol.audio}`);
 						}}
+						title={props.symbol.name}
 					>
 						<span>{props.symbol.character}</span>
 					</div>

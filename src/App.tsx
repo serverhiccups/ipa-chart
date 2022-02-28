@@ -10,6 +10,7 @@ import FaqHelp from "./views/FaqHelp";
 
 import style from "./styles/app.module.scss";
 import WipWarning from "./views/WipWarning";
+import NonPulmonic from "./views/NonPulmonic";
 
 interface Props {
 	controller: Controller;
@@ -36,6 +37,7 @@ export default class App extends Component<Props> {
 							model={this.controller.ipaSymbolModel}
 						></MainConsonants>
 						<Vowels model={this.controller.ipaSymbolModel}></Vowels>
+						<NonPulmonic model={this.controller.ipaSymbolModel} />
 						<FaqHelp />
 					</div>
 				</div>

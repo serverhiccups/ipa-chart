@@ -1,0 +1,1443 @@
+[
+	{ "name": "Voiceless bilabial nasal", "symbols": ["m̥"] },
+	{
+		"name": "Voiced bilabial nasal",
+		"symbols": ["m"],
+		"audio": "Bilabial nasal.ogg"
+	},
+	{
+		"name": "Voiced labiodental nasal",
+		"symbols": ["ɱ"],
+		"audio": "Labiodental nasal.ogg"
+	},
+	{
+		"name": "Voiced linguolabial nasal",
+		"symbols": ["n̼"],
+		"audio": "Linguolabial nasal.ogg"
+	},
+	{ "name": "Voiced dental nasal", "symbols": ["n̪"] },
+	{ "name": "Voiceless alveolar nasal", "symbols": ["n̥"] },
+	{
+		"name": "Voiced alveolar nasal",
+		"symbols": ["n"],
+		"audio": "Alveolar nasal.ogg"
+	},
+	{ "name": "Voiced postalveolar nasal", "symbols": ["n̠"] },
+	{ "name": "Voiceless retroflex nasal", "symbols": ["ɳ̊", "ɳ̥"] },
+	{
+		"name": "Voiced retroflex nasal",
+		"symbols": ["ɳ"],
+		"audio": "Retroflex nasal.ogg"
+	},
+	{
+		"name": "Voiceless alveolo-palatal nasal",
+		"symbols": ["n̠̊ʲ", "ɲ̊˖", "ɲ̟̊", "ȵ̊"]
+	},
+	{ "name": "Voiced alveolo-palatal nasal", "symbols": ["n̠ʲ", "ɲ˖", "ɲ̟", "ȵ"] },
+	{ "name": "Voiceless palatal nasal", "symbols": ["ɲ̊", "ɲ̥"] },
+	{
+		"name": "Voiced palatal nasal",
+		"symbols": ["ɲ"],
+		"audio": "Palatal nasal.ogg"
+	},
+	{ "name": "Voiced post-palatal nasal", "symbols": ["ɲ˗", "ɲ̠", "ŋ˖", "ŋ̟"] },
+	{ "name": "Voiceless velar nasal", "symbols": ["ŋ̊", "ŋ̥"] },
+	{
+		"name": "Voiced velar nasal",
+		"symbols": ["ŋ"],
+		"audio": "Velar nasal.ogg"
+	},
+	{ "name": "Voiced pre-uvular nasal", "symbols": ["ɴ̟", "ŋ˗", "ŋ̠"] },
+	{
+		"name": "Voiced uvular nasal",
+		"symbols": ["ɴ"],
+		"audio": "Uvular nasal.ogg"
+	},
+	{
+		"name": "Voiceless bilabial plosive",
+		"symbols": ["p"],
+		"audio": "Voiceless bilabial plosive.ogg"
+	},
+	{
+		"name": "Voiced bilabial plosive",
+		"symbols": ["b"],
+		"audio": "Voiced bilabial plosive.ogg"
+	},
+	{ "name": "Voiceless labiodental plosive", "symbols": ["p̪", "p͆"] },
+	{ "name": "Voiced labiodental plosive", "symbols": ["b̪"] },
+	{
+		"name": "Voiceless linguolabial plosive",
+		"symbols": ["t̼"],
+		"audio": "Voiceless linguolabial stop.ogg"
+	},
+	{
+		"name": "Voiced linguolabial plosive",
+		"symbols": ["d̼"],
+		"audio": "Voiced linguolabial stop.ogg"
+	},
+	{
+		"name": "Voiceless dental plosive",
+		"symbols": ["t̪"],
+		"audio": "Voiceless dental stop.ogg"
+	},
+	{
+		"name": "Voiced dental plosive",
+		"symbols": ["d̪"],
+		"audio": "Voiced dental stop.ogg"
+	},
+	{
+		"name": "Voiceless alveolar plosive",
+		"symbols": ["t"],
+		"audio": "Voiceless alveolar plosive.ogg"
+	},
+	{
+		"name": "Voiced alveolar plosive",
+		"symbols": ["d"],
+		"audio": "Voiced alveolar plosive.ogg"
+	},
+	{ "name": "Voiceless postalveolar plosive", "symbols": ["t̠"] },
+	{ "name": "Voiced postalveolar plosive", "symbols": ["d̠"] },
+	{
+		"name": "Voiceless retroflex plosive",
+		"symbols": ["ʈ"],
+		"audio": "Voiceless retroflex stop.oga"
+	},
+	{
+		"name": "Voiced retroflex plosive",
+		"symbols": ["ɖ"],
+		"audio": "Voiced retroflex stop.oga"
+	},
+	{ "name": "Voiceless alveolo-palatal plosive", "symbols": ["t̠ʲ", "c̟", "ȶ"] },
+	{
+		"name": "Voiced alveolo-palatal plosive",
+		"symbols": ["d̠ʲ", "ɟ˖", "ɟ̟", "ȡ"]
+	},
+	{
+		"name": "Voiceless palatal plosive",
+		"symbols": ["c"],
+		"audio": "Voiceless palatal plosive.ogg"
+	},
+	{
+		"name": "Voiced palatal plosive",
+		"symbols": ["ɟ"],
+		"audio": "Voiced palatal plosive.ogg"
+	},
+	{ "name": "Voiceless post-palatal plosive", "symbols": ["c̠", "k̟"] },
+	{ "name": "Voiced post-palatal plosive", "symbols": ["ɟ˗", "ɟ̠", "ɡ˖", "ɡ̟"] },
+	{
+		"name": "Voiceless velar plosive",
+		"symbols": ["k"],
+		"audio": "Voiceless velar plosive.ogg"
+	},
+	{
+		"name": "Voiced velar plosive",
+		"symbols": ["ɡ"],
+		"audio": "Voiced velar plosive 02.ogg"
+	},
+	{ "name": "Voiceless pre-uvular plosive", "symbols": ["q˖", "q̟", "k̠"] },
+	{ "name": "Voiced pre-uvular plosive", "symbols": ["ɢ̟", "ɡ˗", "ɡ̠"] },
+	{
+		"name": "Voiceless uvular plosive",
+		"symbols": ["q"],
+		"audio": "Voiceless uvular plosive.ogg"
+	},
+	{
+		"name": "Voiced uvular plosive",
+		"symbols": ["ɢ"],
+		"audio": "Voiced uvular stop.oga"
+	},
+	{
+		"name": "Epiglottal plosive",
+		"symbols": ["ʡ"],
+		"audio": "Epiglottal stop.ogg"
+	},
+	{ "name": "Glottal stop", "symbols": ["ʔ"], "audio": "Glottal stop.ogg" },
+	{
+		"name": "Voiceless bilabial affricate",
+		"symbols": ["pɸ"],
+		"audio": "Voiceless bilabial affricate.ogg"
+	},
+	{ "name": "Voiced bilabial affricate", "symbols": ["bβ"] },
+	{
+		"name": "Voiceless labiodental affricate",
+		"symbols": ["p̪f", "p͆f", "pf"],
+		"audio": "Voiceless labiodental affricate.ogg"
+	},
+	{
+		"name": "Voiced labiodental affricate",
+		"symbols": ["b̪v", "bv"],
+		"audio": "Voiced labiodental affricate.ogg"
+	},
+	{
+		"name": "Voiceless dental affricate",
+		"symbols": ["t̪s̪", "ts̪", "t̟s̟", "ts̟"],
+		"audio": "Voiceless dental sibilant affricate.oga"
+	},
+	{
+		"name": "Voiced dental affricate",
+		"symbols": ["d̪z̪", "dz̪", "d̟z̟", "dz̟"],
+		"audio": "Voiced dental sibilant affricate.oga"
+	},
+	{
+		"name": "Voiceless dental non-sibilant affricate",
+		"symbols": ["t̪θ", "t̟θ", "tθ"],
+		"audio": "Voiceless dental non-sibilant affricate.oga"
+	},
+	{
+		"name": "Voiced dental non-sibilant affricate",
+		"symbols": ["d̪ð", "d̟ð", "dð"],
+		"audio": "Voiced dental non-sibilant affricate.oga"
+	},
+	{
+		"name": "Voiceless alveolar affricate",
+		"symbols": ["ts", "ʦ"],
+		"audio": "Voiceless alveolar sibilant affricate.oga"
+	},
+	{
+		"name": "Voiced alveolar affricate",
+		"symbols": ["dz", "ʣ"],
+		"audio": "Voiced alveolar sibilant affricate.oga"
+	},
+	{
+		"name": "Voiceless apico-alveolar affricate",
+		"symbols": ["t̺s̺", "ts̺", "t̠s̠", "ts̠"]
+	},
+	{
+		"name": "Voiced apico-alveolar affricate",
+		"symbols": ["d̺z̺", "dz̺", "d̠z̠", "dz̠"]
+	},
+	{
+		"name": "Voiceless alveolar non-sibilant affricate",
+		"symbols": ["tɹ̝̊", "tɹ̥", "tθ̠", "tθ͇"]
+	},
+	{
+		"name": "Voiced alveolar non-sibilant affricate",
+		"symbols": ["dɹ̝", "dɹ", "dð̠", "dð͇"]
+	},
+	{
+		"name": "Voiceless postalveolar affricate",
+		"symbols": ["t̠ʃ", "tʃ", "ʧ"],
+		"audio": "Voiceless palato-alveolar affricate.ogg"
+	},
+	{
+		"name": "Voiced postalveolar affricate",
+		"symbols": ["d̠ʒ", "dʒ", "ʤ"],
+		"audio": "Voiced palato-alveolar affricate.ogg"
+	},
+	{
+		"name": "Voiceless postalveolar non-sibilant affricate",
+		"symbols": ["t̠ɹ̠̊˔", "tɹ̠̊˔", "tɹ̝̊˗", "t̠ɹ̝̊˗", "t̠ɹ̠̊", "tɹ̠̊"],
+		"audio": "Voiceless postalveolar non-sibilant affricate.ogg"
+	},
+	{
+		"name": "Voiced postalveolar non-sibilant affricate",
+		"symbols": ["d̠ɹ̠˔", "dɹ̠˔", "dɹ̝˗", "d̠ɹ̝˗", "d̠ɹ̠", "dɹ̠"],
+		"audio": "Voiced postalveolar non-sibilant affricate.ogg"
+	},
+	{
+		"name": "Voiceless retroflex affricate",
+		"symbols": ["ʈʂ", "tʂ"],
+		"audio": "Voiceless retroflex affricate.ogg"
+	},
+	{
+		"name": "Voiced retroflex affricate",
+		"symbols": ["ɖʐ", "dʐ"],
+		"audio": "Voiced retroflex affricate.ogg"
+	},
+	{
+		"name": "Voiceless alveolo-palatal affricate",
+		"symbols": ["tɕ", "cɕ", "ʨ"],
+		"audio": "Voiceless alveolo-palatal affricate.ogg"
+	},
+	{
+		"name": "Voiced alveolo-palatal affricate",
+		"symbols": ["dʑ", "ɟʑ", "ʥ"],
+		"audio": "Voiced alveolo-palatal affricate.ogg"
+	},
+	{
+		"name": "Voiceless palatal affricate",
+		"symbols": ["cç"],
+		"audio": "Voiceless palatal affricate.ogg"
+	},
+	{
+		"name": "Voiced palatal affricate",
+		"symbols": ["ɟʝ"],
+		"audio": "Voiced palatal affricate.ogg"
+	},
+	{
+		"name": "Voiceless post-palatal affricate",
+		"symbols": ["c̠ç˗", "cç˗", "c̠ç̠", "cç̠", "k̟x̟", "kx̟"]
+	},
+	{
+		"name": "Voiced post-palatal affricate",
+		"symbols": ["ɟ˗ʝ˗", "ɟʝ˗", "ɟ̠ʝ̠", "ɟʝ̠", "ɡ˖ɣ˖", "ɡɣ˖", "ɡ̟ɣ̟", "ɡɣ̟"]
+	},
+	{
+		"name": "Voiceless velar affricate",
+		"symbols": ["kx"],
+		"audio": "Voiceless velar affricate.ogg"
+	},
+	{
+		"name": "Voiced velar affricate",
+		"symbols": ["ɡɣ"],
+		"audio": "Voiced velar affricate.ogg"
+	},
+	{
+		"name": "Voiceless pre-uvular affricate",
+		"symbols": ["q˖χ˖", "qχ˖", "q̟χ̟", "qχ̟", "k̠x̠", "kx̠"]
+	},
+	{
+		"name": "Voiceless uvular affricate",
+		"symbols": ["qχ"],
+		"audio": "Voiceless uvular affricate.ogg"
+	},
+	{
+		"name": "Voiced uvular affricate",
+		"symbols": ["ɢʁ"],
+		"audio": "Voiced uvular affricate.ogg"
+	},
+	{ "name": "Voiceless pharyngeal affricate", "symbols": ["ʡħ"] },
+	{
+		"name": "Voiceless epiglottal affricate",
+		"symbols": ["ʡʜ"],
+		"audio": "Voiceless epiglottal affricate.ogg"
+	},
+	{
+		"name": "Voiced epiglottal affricate",
+		"symbols": ["ʡʢ"],
+		"audio": "Voiced epiglottal affricate.ogg"
+	},
+	{
+		"name": "Voiceless glottal affricate",
+		"symbols": ["ʔh"],
+		"audio": "Voiceless glottal affricate.ogg"
+	},
+	{
+		"name": "Voiceless bilabial fricative",
+		"symbols": ["ɸ", "β̞̊", "β̥˕"],
+		"audio": "Voiceless bilabial fricative.ogg"
+	},
+	{
+		"name": "Voiced bilabial fricative",
+		"symbols": ["β"],
+		"audio": "Voiced bilabial fricative.ogg"
+	},
+	{
+		"name": "Voiceless labiodental fricative",
+		"symbols": ["f", "ʋ̥", "f̞"],
+		"audio": "Voiceless labio-dental fricative.ogg"
+	},
+	{
+		"name": "Voiced labiodental fricative",
+		"symbols": ["v"],
+		"audio": "Voiced labio-dental fricative.ogg"
+	},
+	{ "name": "Voiceless linguolabial fricative", "symbols": ["θ̼"] },
+	{ "name": "Voiced linguolabial fricative", "symbols": ["ð̼"] },
+	{
+		"name": "Voiceless dental fricative",
+		"symbols": ["θ", "θ̞"],
+		"audio": "Voiceless dental fricative.ogg"
+	},
+	{
+		"name": "Voiced dental fricative",
+		"symbols": ["ð"],
+		"audio": "Voiced dental fricative.ogg"
+	},
+	{ "name": "Voiceless dental sibilant fricative", "symbols": ["s̪"] },
+	{ "name": "Voiced dental sibilant fricative", "symbols": ["z̪"] },
+	{
+		"name": "Voiceless denti-alveolar fricative",
+		"symbols": ["s̻̪", "s̪̻", "s̻͆", "s̟"]
+	},
+	{
+		"name": "Voiceless alveolar fricative",
+		"symbols": ["s"],
+		"audio": "Voiceless alveolar sibilant.ogg"
+	},
+	{
+		"name": "Voiced alveolar fricative",
+		"symbols": ["z"],
+		"audio": "Voiced alveolar sibilant.ogg"
+	},
+	{ "name": "Voiceless apico-alveolar fricative", "symbols": ["s̺"] },
+	{ "name": "Voiced apico-alveolar fricative", "symbols": ["z̺"] },
+	{
+		"name": "Voiceless alveolar retracted fricative",
+		"symbols": ["s̠"],
+		"audio": "Voiceless alveolar retracted sibilant.ogg"
+	},
+	{ "name": "Voiced alveolar retracted fricative", "symbols": ["z̠"] },
+	{
+		"name": "Voiceless alveolar non-sibilant fricative",
+		"symbols": ["θ̠", "θ͇", "ɹ̝̊", "ɹ̥"],
+		"audio": "Voiceless alveolar non-sibilant fricative.ogg"
+	},
+	{
+		"name": "Voiced alveolar non-sibilant fricative",
+		"symbols": ["ð̠", "ð͇", "ɹ̝"],
+		"audio": "Voiced alveolar non-sibilant fricative.ogg"
+	},
+	{ "name": "Voiceless alveolar tapped fricative", "symbols": ["ɾ̞̊"] },
+	{
+		"name": "Voiced alveolar tapped fricative",
+		"symbols": ["ɾ̞"],
+		"audio": "Voiced alveolar tapped fricative.ogg"
+	},
+	{
+		"name": "Voiceless postalveolar fricative",
+		"symbols": ["ʃ"],
+		"audio": "Voiceless palato-alveolar sibilant.ogg"
+	},
+	{
+		"name": "Voiced postalveolar fricative",
+		"symbols": ["ʒ"],
+		"audio": "Voiced palato-alveolar sibilant.ogg"
+	},
+	{
+		"name": "Voiceless postalveolar non-sibilant fricative",
+		"symbols": ["ɹ̠̊˔", "ɹ̝̊˗"],
+		"audio": "Voiceless postalveolar non-sibilant fricative.ogg"
+	},
+	{
+		"name": "Voiced postalveolar non-sibilant fricative",
+		"symbols": ["ɹ̠˔", "ɹ̝˗"],
+		"audio": "Voiced postalveolar non-sibilant fricative.ogg"
+	},
+	{
+		"name": "Voiceless retroflex fricative",
+		"symbols": ["ʂ"],
+		"audio": "Voiceless retroflex sibilant.ogg"
+	},
+	{
+		"name": "Voiced retroflex fricative",
+		"symbols": ["ʐ"],
+		"audio": "Voiced retroflex sibilant.ogg"
+	},
+	{
+		"name": "Voiced retroflex non-sibilant fricative",
+		"symbols": ["ɻ̝", "ɻ˔", "ɻ̊"]
+	},
+	{
+		"name": "Voiceless alveolo-palatal fricative",
+		"symbols": ["ɕ"],
+		"audio": "Voiceless alveolo-palatal sibilant.ogg"
+	},
+	{
+		"name": "Voiced alveolo-palatal fricative",
+		"symbols": ["ʑ"],
+		"audio": "Voiced alveolo-palatal sibilant.ogg"
+	},
+	{
+		"name": "Voiceless palatal fricative",
+		"symbols": ["ç"],
+		"audio": "Voiceless palatal fricative.ogg"
+	},
+	{
+		"name": "Voiced palatal fricative",
+		"symbols": ["ʝ", "j̊"],
+		"audio": "Voiced palatal fricative.ogg"
+	},
+	{ "name": "Voiceless post-palatal fricative", "symbols": ["ç˗", "ç̠", "x̟"] },
+	{
+		"name": "Voiced post-palatal fricative",
+		"symbols": ["ʝ˗", "ʝ̠", "ɣ˖", "ɣ̟"]
+	},
+	{
+		"name": "Voiceless velar fricative",
+		"symbols": ["x", "ɰ̊", "x̞", "ɣ̊˕", "ɣ̞̊"],
+		"audio": "Voiceless velar fricative.ogg"
+	},
+	{
+		"name": "Voiced velar fricative",
+		"symbols": ["ɣ"],
+		"audio": "Voiced velar fricative.ogg"
+	},
+	{ "name": "Voiceless pre-uvular fricative", "symbols": ["χ˖", "χ̟", "x̠"] },
+	{ "name": "Voiced pre-uvular fricative", "symbols": ["ʁ̟", "ɣ˗", "ɣ̠"] },
+	{
+		"name": "Voiceless uvular fricative",
+		"symbols": ["χ"],
+		"audio": "Voiceless uvular fricative.ogg"
+	},
+	{
+		"name": "Voiced uvular fricative",
+		"symbols": ["ʁ"],
+		"audio": "Voiced uvular fricative.ogg"
+	},
+	{
+		"name": "Voiceless pharyngeal fricative",
+		"symbols": ["ħ"],
+		"audio": "Voiceless pharyngeal fricative.ogg"
+	},
+	{
+		"name": "Voiced pharyngeal fricative",
+		"symbols": ["ʕ"],
+		"audio": "Voiced pharyngeal fricative.ogg"
+	},
+	{
+		"name": "Voiceless glottal fricative",
+		"symbols": ["h"],
+		"audio": "Voiceless glottal fricative.ogg"
+	},
+	{
+		"name": "Voiced glottal fricative",
+		"symbols": ["ɦ"],
+		"audio": "Voiced glottal fricative.ogg"
+	},
+	{ "name": "Voiceless bidental fricative", "symbols": ["h̪͆"] },
+	{
+		"name": "Voiced bilabial approximant",
+		"symbols": ["β̞"],
+		"audio": "Bilabial approximant.ogg"
+	},
+	{
+		"name": "Voiced labiodental approximant",
+		"symbols": ["ʋ"],
+		"audio": "Labiodental approximant.ogg"
+	},
+	{
+		"name": "Voiced dental approximant",
+		"symbols": ["ð̞"],
+		"audio": "Voiced dental approximant.ogg"
+	},
+	{
+		"name": "Voiced alveolar approximant",
+		"symbols": ["ɹ"],
+		"audio": "Alveolar approximant.ogg"
+	},
+	{
+		"name": "Voiced postalveolar approximant",
+		"symbols": ["ɹ̠"],
+		"audio": "Postalveolar approximant.ogg"
+	},
+	{
+		"name": "Voiced retroflex approximant",
+		"symbols": ["ɻ"],
+		"audio": "Retroflex Approximant2.oga"
+	},
+	{
+		"name": "Voiced palatal approximant",
+		"symbols": ["j", "ʝ˕", "ʝ̞"],
+		"audio": "Palatal approximant.ogg"
+	},
+	{
+		"name": "Voiced post-palatal approximant",
+		"symbols": ["j˗", "j̠", "ɰ̟", "ɰ˖", "ʝ˕˗", "ʝ˗˕", "ʝ̞˗", "ɣ˕˖", "ɣ˖˕", "ɣ̞˖"],
+		"audio": "Post-palatal approximant.ogg"
+	},
+	{
+		"name": "Voiced velar approximant",
+		"symbols": ["ɰ", "ɣ˕", "ɣ̞"],
+		"audio": "Voiced velar approximant.ogg"
+	},
+	{
+		"name": "Voiced uvular approximant",
+		"symbols": ["ʁ̞"],
+		"audio": "Voiced Uvular Approximant.ogg"
+	},
+	{ "name": "Voiced pharyngeal approximant", "symbols": ["ʕ̞"] },
+	{ "name": "Voiced epiglottal approximant", "symbols": ["ʢ̞"] },
+	{ "name": "Creaky-voiced glottal approximant", "symbols": ["ʔ̞", "ʔ̰"] },
+	{ "name": "Voiced bilabial flap", "symbols": ["ⱱ̟", "b̆"] },
+	{
+		"name": "Voiced labiodental flap",
+		"symbols": ["ⱱ"],
+		"audio": "Labiodental flap.ogg"
+	},
+	{ "name": "Voiced linguolabial tap", "symbols": ["ɾ̼"] },
+	{
+		"name": "Voiced dental tap or flap",
+		"symbols": ["ɾ̪"],
+		"article": "Dental tap"
+	},
+	{
+		"name": "Voiceless alveolar tap or flap",
+		"symbols": ["ɾ̥"],
+		"article": "Voiceless alveolar tap"
+	},
+	{
+		"name": "Voiced alveolar tap or flap",
+		"symbols": ["ɾ"],
+		"article": "Alveolar tap",
+		"audio": "Alveolar tap.ogg"
+	},
+	{ "name": "Voiced postalveolar flap", "symbols": ["ɾ̠"] },
+	{
+		"name": "Voiced alveolar nasal tap or flap",
+		"symbols": ["ɾ̃", "n̆"],
+		"article": "Alveolar nasal tap"
+	},
+	{ "name": "Voiceless retroflex flap", "symbols": ["ɽ̊"] },
+	{
+		"name": "Voiced retroflex flap",
+		"symbols": ["ɽ"],
+		"audio": "Retroflex flap.ogg"
+	},
+	{
+		"name": "Voiced uvular tap or flap",
+		"symbols": ["ɢ̆", "ʀ̆"],
+		"article": "Uvular tap and flap"
+	},
+	{
+		"name": "Voiced epiglottal tap",
+		"symbols": ["ʡ̆", "ʢ̆"],
+		"audio": "Epiglottal flap.oga"
+	},
+	{
+		"name": "Voiceless bilabial trill",
+		"symbols": ["ʙ̥"],
+		"audio": "Voiceless bilabial trill with aspiration.ogg"
+	},
+	{
+		"name": "Voiced bilabial trill",
+		"symbols": ["ʙ"],
+		"audio": "Bilabial trill.ogg"
+	},
+	{
+		"name": "Voiced linguolabial trill",
+		"symbols": ["r̼"],
+		"audio": "Linguolabial trill.ogg"
+	},
+	{ "name": "Voiced dental trill", "symbols": ["r̪"] },
+	{
+		"name": "Voiceless alveolar trill",
+		"symbols": ["r̥"],
+		"audio": "Voiceless alveolar trill.ogg"
+	},
+	{
+		"name": "Voiced alveolar trill",
+		"symbols": ["r"],
+		"audio": "Alveolar trill.ogg"
+	},
+	{ "name": "Voiceless alveolar fricative trill", "symbols": ["r̝̊"] },
+	{
+		"name": "Voiced alveolar fricative trill",
+		"symbols": ["r̝"],
+		"audio": "Raised alveolar non-sonorant trill.ogg"
+	},
+	{
+		"name": "Voiced postalveolar trill",
+		"symbols": ["r̠"],
+		"audio": "Voiced postalveolar trill.ogg"
+	},
+	{ "name": "Voiceless retroflex trill", "symbols": ["ɽ̊r̥", "ɽr̥"] },
+	{
+		"name": "Voiced retroflex trill",
+		"symbols": ["ɽr"],
+		"audio": "Voiced retroflex trill.ogg"
+	},
+	{ "name": "Voiceless pre-uvular fricative trill", "symbols": ["ʀ̝̊˖", "ʀ̟̊˔"] },
+	{ "name": "Voiced pre-uvular fricative trill", "symbols": ["ʀ̝˖", "ʀ̟˔"] },
+	{
+		"name": "Voiceless uvular trill",
+		"symbols": ["ʀ̥"],
+		"audio": "Voiceless uvular trill.ogg"
+	},
+	{
+		"name": "Voiced uvular trill",
+		"symbols": ["ʀ"],
+		"audio": "Uvular trill.ogg"
+	},
+	{ "name": "Voiceless uvular fricative trill", "symbols": ["ʀ̝̊"] },
+	{ "name": "Voiced uvular fricative trill", "symbols": ["ʀ̝"] },
+	{
+		"name": "Voiceless epiglottal trill",
+		"symbols": ["ʜ"],
+		"audio": "Voiceless epiglottal trill.ogg"
+	},
+	{
+		"name": "Voiced epiglottal trill",
+		"symbols": ["ʢ"],
+		"audio": "Voiced epiglottal trill 2.ogg"
+	},
+	{
+		"name": "Voiceless alveolar lateral affricate",
+		"symbols": ["tɬ", "ƛ"],
+		"audio": "Voiceless alveolar lateral affricate.ogg"
+	},
+	{
+		"name": "Voiced alveolar lateral affricate",
+		"symbols": ["dɮ"],
+		"audio": "Voiced alveolar lateral affricate.ogg"
+	},
+	{
+		"name": "Voiceless retroflex lateral affricate",
+		"symbols": ["ʈɭ̊˔", "ʈɭ̊", "tꞎ", "ʈꞎ"]
+	},
+	{
+		"name": "Voiced retroflex lateral affricate",
+		"symbols": ["ɖɭ˔", "ɖɭ", "d𝼅", "ɖ𝼅"]
+	},
+	{
+		"name": "Voiceless palatal lateral affricate",
+		"symbols": ["cʎ̝̊", "cʎ̥", "c𝼆", "t𝼆"],
+		"audio": "Voiceless palatal lateral affricate.ogg"
+	},
+	{
+		"name": "Voiced palatal lateral affricate",
+		"symbols": ["ɟʎ̝", "ɟʎ", "ɟ𝼆̬", "d𝼆̬"]
+	},
+	{
+		"name": "Voiceless velar lateral affricate",
+		"symbols": ["kʟ̝̊", "kʟ̥", "k𝼄"],
+		"audio": "Voiceless velar lateral affricate.ogg"
+	},
+	{
+		"name": "Voiced velar lateral affricate",
+		"symbols": ["ɡʟ̝", "ɡʟ", "ɡ𝼄̬"],
+		"audio": "Voiced velar lateral affricate.ogg"
+	},
+	{ "name": "Voiceless dental lateral fricative", "symbols": ["ɬ̪"] },
+	{ "name": "Voiced dental lateral fricative", "symbols": ["ɮ̪", "ɮ͆"] },
+	{
+		"name": "Voiceless alveolar lateral fricative",
+		"symbols": ["ɬ", "l̥"],
+		"audio": "Voiceless alveolar lateral fricative.ogg"
+	},
+	{
+		"name": "Voiced alveolar lateral fricative",
+		"symbols": ["ɮ"],
+		"audio": "Voiced alveolar lateral fricative.ogg"
+	},
+	{
+		"name": "Voiceless retroflex lateral fricative",
+		"symbols": ["ɭ̊˔", "ꞎ", "ɭ̊"],
+		"audio": "Voiceless retroflex lateral fricative.ogg"
+	},
+	{ "name": "Voiced retroflex lateral fricative", "symbols": ["ɭ˔", "𝼅"] },
+	{
+		"name": "Voiceless alveolo-palatal lateral fricative",
+		"symbols": ["ɬ̠ʲ", "ʎ̝̊˖", "ȴ̊˔", "l̠̊ʲ", "ʎ̟̊", "ȴ̊"]
+	},
+	{
+		"name": "Voiceless palatal lateral fricative",
+		"symbols": ["ʎ̝̊", "ʎ̥", "𝼆"],
+		"audio": "Voiceless palatal lateral fricative.ogg"
+	},
+	{ "name": "Voiced palatal lateral fricative", "symbols": ["ʎ̝", "𝼆̬"] },
+	{
+		"name": "Voiceless velar lateral fricative",
+		"symbols": ["ʟ̝̊", "ʟ̥", "𝼄"],
+		"audio": "Voiceless velar lateral fricative.ogg"
+	},
+	{
+		"name": "Voiced velar lateral fricative",
+		"symbols": ["ʟ̝", "𝼄̬"],
+		"audio": "Voiced velar lateral fricative.ogg"
+	},
+	{
+		"name": "Voiced dental lateral approximant",
+		"symbols": ["l̪"],
+		"audio": "Voiced dental lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced alveolar lateral approximant",
+		"symbols": ["l"],
+		"audio": "Alveolar lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced postalveolar lateral approximant",
+		"symbols": ["l̠"],
+		"audio": "Voiced postalveolar lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced retroflex lateral approximant",
+		"symbols": ["ɭ"],
+		"audio": "Retroflex lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced alveolo-palatal lateral approximant",
+		"symbols": ["l̠ʲ", "ʎ̟", "ȴ"]
+	},
+	{
+		"name": "Voiced palatal lateral approximant",
+		"symbols": ["ʎ"],
+		"audio": "Palatal lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced velar lateral approximant",
+		"symbols": ["ʟ"],
+		"audio": "Velar lateral approximant.ogg"
+	},
+	{
+		"name": "Voiced uvular lateral approximant",
+		"symbols": ["ʟ̠"],
+		"audio": "Uvular lateral approximant.ogg"
+	},
+	{ "name": "Voiceless alveolar lateral flap", "symbols": ["ɺ̥"] },
+	{ "name": "Voiced alveolar lateral flap", "symbols": ["ɺ"] },
+	{ "name": "Voiceless retroflex lateral flap", "symbols": ["ɭ̥̆", "𝼈̥"] },
+	{ "name": "Voiced retroflex lateral flap", "symbols": ["ɭ̆", "𝼈"] },
+	{ "name": "Voiced palatal lateral flap", "symbols": ["ʎ̆"] },
+	{ "name": "Voiced velar lateral tap", "symbols": ["ʟ̆"] },
+	{
+		"name": "Bilabial ejective stop",
+		"symbols": ["pʼ"],
+		"audio": "Bilabial ejective plosive.ogg"
+	},
+	{ "name": "Dental ejective stop", "symbols": ["t̪ʼ"] },
+	{
+		"name": "Alveolar ejective stop",
+		"symbols": ["tʼ"],
+		"audio": "Alveolar ejective plosive.ogg"
+	},
+	{
+		"name": "Retroflex ejective stop",
+		"symbols": ["ʈʼ"],
+		"audio": "Retroflex ejective.ogg"
+	},
+	{
+		"name": "Palatal ejective stop",
+		"symbols": ["cʼ"],
+		"audio": "Palatal ejective.ogg"
+	},
+	{
+		"name": "Velar ejective stop",
+		"symbols": ["kʼ"],
+		"audio": "Velar ejective plosive.ogg"
+	},
+	{
+		"name": "Uvular ejective stop",
+		"symbols": ["qʼ"],
+		"audio": "Uvular ejective plosive.ogg"
+	},
+	{
+		"name": "Epiglottal ejective",
+		"symbols": ["ʡʼ"],
+		"audio": "Epiglottal ejective.ogg"
+	},
+	{
+		"name": "Dental ejective affricate",
+		"symbols": ["t̪θʼ", "t̟θʼ", "tθʼ"],
+		"audio": "Dental ejective affricate.ogg"
+	},
+	{
+		"name": "Alveolar ejective affricate",
+		"symbols": ["tsʼ"],
+		"audio": "Alveolar ejective affricate.ogg"
+	},
+	{
+		"name": "Palato-alveolar ejective affricate",
+		"symbols": ["t̠ʃʼ", "tʃʼ"],
+		"audio": "Palato-alveolar ejective affricate.ogg"
+	},
+	{
+		"name": "Retroflex ejective affricate",
+		"symbols": ["ʈʂʼ", "tʂʼ"],
+		"audio": "Retroflex ejective affricate.ogg"
+	},
+	{
+		"name": "Alveolo-palatal ejective affricate",
+		"symbols": ["t̠ɕʼ", "tɕʼ", "cɕʼ"]
+	},
+	{
+		"name": "Palatal ejective affricate",
+		"symbols": ["cçʼ"],
+		"audio": "Palatal ejective affricate.ogg"
+	},
+	{
+		"name": "Velar ejective affricate",
+		"symbols": ["kxʼ"],
+		"audio": "Velar ejective affricate.ogg"
+	},
+	{
+		"name": "Uvular ejective affricate",
+		"symbols": ["qχʼ"],
+		"audio": "Uvular ejective affricate.ogg"
+	},
+	{ "name": "Bilabial ejective fricative", "symbols": ["ɸʼ"] },
+	{
+		"name": "Labiodental ejective fricative",
+		"symbols": ["fʼ"],
+		"audio": "Labiodental ejective fricative.ogg"
+	},
+	{
+		"name": "Dental ejective fricative",
+		"symbols": ["θʼ"],
+		"audio": "Dental ejective fricative.ogg"
+	},
+	{
+		"name": "Alveolar ejective fricative",
+		"symbols": ["sʼ"],
+		"audio": "Alveolar ejective fricative.ogg"
+	},
+	{
+		"name": "Palato-alveolar ejective fricative",
+		"symbols": ["ʃʼ"],
+		"audio": "Palato-alveolar ejective fricative.ogg"
+	},
+	{
+		"name": "Retroflex ejective fricative",
+		"symbols": ["ʂʼ"],
+		"audio": "Retroflex ejective fricative.ogg"
+	},
+	{
+		"name": "Alveolo-palatal ejective fricative",
+		"symbols": ["ɕʼ"],
+		"audio": "Alveolo-palatal ejective fricative.ogg"
+	},
+	{
+		"name": "Palatal ejective fricative",
+		"symbols": ["çʼ"],
+		"audio": "Palatal ejective fricative.ogg"
+	},
+	{
+		"name": "Velar ejective fricative",
+		"symbols": ["xʼ"],
+		"audio": "Velar ejective fricative.ogg"
+	},
+	{
+		"name": "Uvular ejective fricative",
+		"symbols": ["χʼ"],
+		"audio": "Uvular ejective fricative.ogg"
+	},
+	{
+		"name": "Alveolar lateral ejective affricate",
+		"symbols": ["tɬʼ", "ƛʼ"],
+		"audio": "Alveolar lateral ejective affricate.ogg"
+	},
+	{
+		"name": "Palatal lateral ejective affricate",
+		"symbols": ["cʎ̝̊ʼ", "cʎ̥ʼ"],
+		"audio": "Palatal lateral ejective affricate.ogg"
+	},
+	{
+		"name": "Velar lateral ejective affricate",
+		"symbols": ["kʟ̝̊ʼ", "kʟ̥ʼ"],
+		"audio": "Velar lateral ejective affricate.ogg"
+	},
+	{
+		"name": "Alveolar lateral ejective fricative",
+		"symbols": ["ɬʼ"],
+		"audio": "Alveolar lateral ejective fricative.ogg"
+	},
+	{
+		"name": "Tenuis bilabial click",
+		"symbols": ["ʘ", "kʘ"],
+		"audio": "Clic bilabial sourd.ogg"
+	},
+	{
+		"name": "Tenuis dental click",
+		"symbols": ["ǀ", "kǀ"],
+		"audio": "Dental click.ogg"
+	},
+	{
+		"name": "Tenuis alveolar click",
+		"symbols": ["ǃ", "kǃ"],
+		"audio": "Postalveolar click.ogg"
+	},
+	{
+		"name": "Tenuis palatal click",
+		"symbols": ["ǂ", "kǂ"],
+		"audio": "Palatoalveolar click.ogg"
+	},
+	{ "name": "Back-released velar click", "symbols": ["ʞ"] },
+	{ "name": "Voiced bilabial click", "symbols": ["ʘ̬", "ɡʘ"] },
+	{ "name": "Voiced dental click", "symbols": ["ǀ̬", "ɡǀ"] },
+	{ "name": "Voiced alveolar click", "symbols": ["ǃ̬", "ɡǃ"] },
+	{ "name": "Tenuis retroflex click", "symbols": ["‼", "𝼊"] },
+	{ "name": "Voiced palatal click", "symbols": ["ǂ̬", "ɡǂ"] },
+	{ "name": "Voiced retroflex click", "symbols": ["‼̬", "ɡ‼", "ɡ𝼊"] },
+	{
+		"name": "Bilabial nasal click",
+		"symbols": ["ʘ̃", "ŋʘ"],
+		"audio": "Bilabial nasal click.ogg"
+	},
+	{ "name": "Dental nasal click", "symbols": ["ǀ̃", "ŋǀ"] },
+	{
+		"name": "Alveolar nasal click",
+		"symbols": ["ǃ̃", "ŋǃ"],
+		"audio": "Intervocalic nasal alveolar clicks.ogg"
+	},
+	{ "name": "Palatal nasal click", "symbols": ["ǂ̃", "ŋǂ"] },
+	{ "name": "Retroflex nasal click", "symbols": ["‼̃", "ŋ‼", "ŋ𝼊"] },
+	{
+		"name": "Tenuis alveolar lateral click",
+		"symbols": ["ǁ", "kǁ"],
+		"audio": "Alveolar lateral click.ogg"
+	},
+	{ "name": "Voiced alveolar lateral click", "symbols": ["ǁ̬", "ɡǁ"] },
+	{ "name": "Alveolar lateral nasal click", "symbols": ["ǁ̃", "ŋǁ"] },
+	{
+		"name": "Glottalized bilabial nasal click",
+		"symbols": ["ʘ̃ˀ", "ʘˀ", "ŋ̊ʘˀ", "ŋʘˀ"]
+	},
+	{
+		"name": "Glottalized dental nasal click",
+		"symbols": ["ǀ̃ˀ", "ǀˀ", "ŋ̊ǀˀ", "ŋǀˀ"]
+	},
+	{
+		"name": "Glottalized alveolar nasal click",
+		"symbols": ["ǃ̃ˀ", "ǃˀ", "ŋ̊ǃˀ", "ŋǃˀ"]
+	},
+	{
+		"name": "Glottalized retroflex nasal click",
+		"symbols": ["‼̃ˀ", "‼ˀ", "ŋ‼ˀ", "ŋ̊‼ˀ"]
+	},
+	{
+		"name": "Glottalized palatal nasal click",
+		"symbols": ["ǂ̃ˀ", "ǂˀ", "ŋ̊ǂˀ", "ŋǂˀ"]
+	},
+	{
+		"name": "Glottalized alveolar lateral nasal click",
+		"symbols": ["ǁ̃ˀ", "ǁˀ", "ŋ̊ǁˀ", "ŋǁˀ"]
+	},
+	{ "name": "Voiceless bilabial implosive", "symbols": ["ɓ̥", "ƥ"] },
+	{
+		"name": "Voiced bilabial implosive",
+		"symbols": ["ɓ"],
+		"audio": "Voiced bilabial implosive.ogg"
+	},
+	{ "name": "Voiceless alveolar implosive", "symbols": ["ɗ̥", "ƭ"] },
+	{
+		"name": "Voiced alveolar implosive",
+		"symbols": ["ɗ"],
+		"audio": "Voiced alveolar implosive.ogg"
+	},
+	{ "name": "Voiceless retroflex implosive", "symbols": ["ᶑ̊", "ᶑ̥", "𝼉"] },
+	{ "name": "Voiced retroflex implosive", "symbols": ["ᶑ"] },
+	{ "name": "Voiceless palatal implosive", "symbols": ["ʄ̊", "ʄ̥", "ƈ"] },
+	{
+		"name": "Voiced palatal implosive",
+		"symbols": ["ʄ"],
+		"audio": "Voiced palatal implosive.ogg"
+	},
+	{ "name": "Voiceless velar implosive", "symbols": ["ɠ̊", "ƙ"] },
+	{
+		"name": "Voiced velar implosive",
+		"symbols": ["ɠ"],
+		"audio": "Voiced velar implosive.ogg"
+	},
+	{ "name": "Voiceless uvular implosive", "symbols": ["ʛ̥", "ʠ"] },
+	{
+		"name": "Voiced uvular implosive",
+		"symbols": ["ʛ"],
+		"audio": "Voiced uvular implosive.ogg"
+	},
+	{
+		"name": "Voiced labial–alveolar nasal",
+		"symbols": ["nm"],
+		"article": "Labial–coronal consonant"
+	},
+	{
+		"name": "Voiced labial–velar nasal",
+		"symbols": ["ŋm"],
+		"audio": "Labial-velar nasal stop.ogg"
+	},
+	{
+		"name": "Voiceless labial–alveolar plosive",
+		"symbols": ["tp"],
+		"article": "Labial–coronal consonant"
+	},
+	{
+		"name": "Voiced labial–alveolar plosive",
+		"symbols": ["db"],
+		"article": "Labial–coronal consonant"
+	},
+	{
+		"name": "Voiceless labial–velar plosive",
+		"symbols": ["kp"],
+		"audio": "Voiceless labial-velar plosive.ogg"
+	},
+	{
+		"name": "Voiced labial–velar plosive",
+		"symbols": ["ɡb"],
+		"audio": "Voiced labial-velar plosive.ogg"
+	},
+	{ "name": "Voiceless uvular–epiglottal plosive", "symbols": ["qʡ"] },
+	{ "name": "Voiceless labial–palatal fricative", "symbols": ["ɥ̊"] },
+	{
+		"name": "Voiced labial–palatal approximant",
+		"symbols": ["ɥ"],
+		"audio": "LL-Q150 (fra)-WikiLucas00-IPA ɥ.wav"
+	},
+	{
+		"name": "Voiceless labial–velar fricative",
+		"symbols": ["ʍ", "w̥", "hw"],
+		"audio": "Voiceless labio-velar fricative.ogg"
+	},
+	{
+		"name": "Voiced labial–velar approximant",
+		"symbols": ["w"],
+		"audio": "Voiced labio-velar approximant.ogg"
+	},
+	{
+		"name": "Compressed voiced labial–velar approximant",
+		"symbols": ["wᵝ", "ɰᵝ"],
+		"article": "Voiced labial–velar approximant"
+	},
+	{
+		"name": "Sj-sound",
+		"symbols": ["ɧ"],
+		"audio": "Voiceless dorso-palatal velar fricative.ogg"
+	},
+	{ "name": "Velarized dental lateral approximant", "symbols": ["ɫ̪", "l̪ˠ"] },
+	{
+		"name": "Velarized alveolar lateral approximant",
+		"symbols": ["ɫ", "lˠ"],
+		"audio": "Velarized alveolar lateral approximant.ogg"
+	},
+	{ "name": "Nasal palatal approximant", "symbols": ["j̃"] },
+	{ "name": "Nasal labial–velar approximant", "symbols": ["w̃"] },
+	{ "name": "Voiceless nasal glottal approximant", "symbols": ["h̃"] },
+	{
+		"name": "Close front unrounded vowel",
+		"symbols": ["i"],
+		"audio": "Close front unrounded vowel.ogg"
+	},
+	{
+		"name": "Close front rounded vowel",
+		"symbols": ["y"],
+		"audio": "Close front rounded vowel.ogg"
+	},
+	{
+		"name": "Close front compressed vowel",
+		"symbols": ["y͍", "iᵝ"],
+		"audio": "Close front rounded vowel.ogg"
+	},
+	{ "name": "Close front protruded vowel", "symbols": ["y̫", "yʷ", "iʷ"] },
+	{
+		"name": "Close central unrounded vowel",
+		"symbols": ["ɨ", "ï"],
+		"audio": "Close central unrounded vowel.ogg"
+	},
+	{
+		"name": "Close central rounded vowel",
+		"symbols": ["ʉ", "ü"],
+		"audio": "Close central rounded vowel.ogg"
+	},
+	{
+		"name": "Close central protruded vowel",
+		"symbols": ["ʉ̫", "ʉʷ", "ɨʷ"],
+		"audio": "Close central rounded vowel.ogg"
+	},
+	{ "name": "Close central compressed vowel", "symbols": ["ÿ", "ɨᵝ"] },
+	{
+		"name": "Close back unrounded vowel",
+		"symbols": ["ɯ"],
+		"audio": "Close back unrounded vowel.ogg"
+	},
+	{
+		"name": "Close back rounded vowel",
+		"symbols": ["u"],
+		"audio": "Close back rounded vowel.ogg"
+	},
+	{
+		"name": "Close back protruded vowel",
+		"symbols": ["u̫", "uʷ", "ɯʷ"],
+		"audio": "Close back rounded vowel.ogg"
+	},
+	{
+		"name": "Close back compressed vowel",
+		"symbols": ["u͍", "ɯᵝ"],
+		"audio": "Ja-U.oga"
+	},
+	{
+		"name": "Near-close near-front unrounded vowel",
+		"symbols": ["ɪ", "ɪ̟", "i̞", "e̝"],
+		"audio": "Near-close near-front unrounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-front rounded vowel",
+		"symbols": ["ʏ", "y̞", "y˕", "ø̝"],
+		"audio": "Near-close near-front rounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-front compressed vowel",
+		"symbols": ["ʏ͍", "ɪᵝ"],
+		"audio": "Near-close near-front rounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-front protruded vowel",
+		"symbols": ["ʏ̫", "ʏʷ", "ɪʷ"]
+	},
+	{
+		"name": "Near-close central unrounded vowel",
+		"symbols": ["ɪ̈", "ɨ̞", "ɘ̝"],
+		"audio": "Near-close central unrounded vowel.ogg"
+	},
+	{
+		"name": "Near-close central rounded vowel",
+		"symbols": ["ʊ̈", "ʊ̟", "ʉ̞", "ɵ̝"]
+	},
+	{
+		"name": "Near-close central protruded vowel",
+		"symbols": ["ʊ̫̈", "ʉ̫˕", "ʊ̈ʷ", "ʉ̞ʷ", "ɪ̈ʷ", "ɨ̞ʷ"]
+	},
+	{ "name": "Near-close central compressed vowel", "symbols": ["ʏ̈", "ɨ̞ᵝ"] },
+	{
+		"name": "Near-close near-back unrounded vowel",
+		"symbols": ["ɯ̞", "ɯ̽"],
+		"audio": "Near-close near-back unrounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-back rounded vowel",
+		"symbols": ["ʊ", "u̞", "o̝"],
+		"audio": "Near-close near-back rounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-back protruded vowel",
+		"symbols": ["ʊ̫", "ʊʷ", "ɯ̽ʷ", "ɤ̝̈ʷ", "u̫˕", "u̞ʷ", "ɯ̞ʷ", "ɤ̝ʷ"],
+		"audio": "Near-close near-back rounded vowel.ogg"
+	},
+	{
+		"name": "Near-close near-back compressed vowel",
+		"symbols": ["ʊ͍", "ɯ̽ᵝ", "ɯ̞̈ᵝ", "ɯ̞ᵝ"]
+	},
+	{
+		"name": "Close-mid front unrounded vowel",
+		"symbols": ["e"],
+		"audio": "Close-mid front unrounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid front rounded vowel",
+		"symbols": ["ø"],
+		"audio": "Close-mid front rounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid front compressed vowel",
+		"symbols": ["ø͍", "eᵝ"],
+		"audio": "Close-mid front rounded vowel.ogg"
+	},
+	{ "name": "Close-mid front protruded vowel", "symbols": ["ø̫", "øʷ", "eʷ"] },
+	{
+		"name": "Close-mid central unrounded vowel",
+		"symbols": ["ɘ", "ë", "ɤ̈"],
+		"audio": "Close-mid central unrounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid central rounded vowel",
+		"symbols": ["ɵ", "ö"],
+		"audio": "Close-mid central rounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid central protruded vowel",
+		"symbols": ["ɵ̫", "ɵʷ", "ɘʷ"],
+		"audio": "Close-mid central rounded vowel.ogg"
+	},
+	{ "name": "Close-mid central compressed vowel", "symbols": ["ø̈", "ɘᵝ"] },
+	{
+		"name": "Close-mid back unrounded vowel",
+		"symbols": ["ɤ"],
+		"audio": "Close-mid back unrounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid back rounded vowel",
+		"symbols": ["o"],
+		"audio": "Close-mid back rounded vowel.ogg"
+	},
+	{
+		"name": "Close-mid back protruded vowel",
+		"symbols": ["o̫", "oʷ", "ɤʷ"],
+		"audio": "Close-mid back rounded vowel.ogg"
+	},
+	{ "name": "Close-mid back compressed vowel", "symbols": ["o͍", "ɤᵝ"] },
+	{
+		"name": "Mid front unrounded vowel",
+		"symbols": ["e̞", "ɛ̝"],
+		"audio": "Mid front unrounded vowel.ogg"
+	},
+	{
+		"name": "Mid front rounded vowel",
+		"symbols": ["ø̞", "œ̝"],
+		"audio": "Mid front rounded vowel.ogg"
+	},
+	{ "name": "Mid front compressed vowel", "symbols": ["ø͍˕", "œ͍˔", "e̞ᵝ", "ɛ̝ᵝ"] },
+	{
+		"name": "Mid front protruded vowel",
+		"symbols": ["ø̫˕", "œ̫˔", "ø̞ʷ", "œ̝ʷ", "e̞ʷ", "ɛ̝ʷ"]
+	},
+	{
+		"name": "Mid central vowel",
+		"symbols": ["ə"],
+		"audio": "Mid-central vowel.ogg"
+	},
+	{
+		"name": "Mid central unrounded vowel",
+		"symbols": ["ə̜", "ɘ̞", "ɜ̝"],
+		"audio": "Mid-central vowel.ogg"
+	},
+	{
+		"name": "Mid central rounded vowel",
+		"symbols": ["ə̹", "ɵ̞", "ɞ̝"],
+		"audio": "Mid central rounded vowel.ogg"
+	},
+	{ "name": "Mid back unrounded vowel", "symbols": ["ɤ̞", "ʌ̝"] },
+	{
+		"name": "Mid back rounded vowel",
+		"symbols": ["o̞", "ɔ̝"],
+		"audio": "Mid back rounded vowel.ogg"
+	},
+	{
+		"name": "Open-mid front unrounded vowel",
+		"symbols": ["ɛ"],
+		"audio": "Open-mid front unrounded vowel.ogg"
+	},
+	{
+		"name": "Open-mid front rounded vowel",
+		"symbols": ["œ"],
+		"audio": "Open-mid front rounded vowel.ogg"
+	},
+	{
+		"name": "Open-mid front compressed vowel",
+		"symbols": ["œ͍", "ɛᵝ"],
+		"audio": "Open-mid front rounded vowel.ogg"
+	},
+	{ "name": "Open-mid front protruded vowel", "symbols": ["œ̫", "œʷ", "ɛʷ"] },
+	{
+		"name": "Open-mid central unrounded vowel",
+		"symbols": ["ɜ", "ɛ̈", "ʌ̈"],
+		"audio": "Open-mid central unrounded vowel.ogg"
+	},
+	{
+		"name": "Open-mid central rounded vowel",
+		"symbols": ["ɞ"],
+		"audio": "Open-mid central rounded vowel.ogg"
+	},
+	{
+		"name": "Open-mid back unrounded vowel",
+		"symbols": ["ʌ"],
+		"audio": "PR-open-mid back unrounded vowel2.ogg"
+	},
+	{
+		"name": "Open-mid back rounded vowel",
+		"symbols": ["ɔ"],
+		"audio": "PR-open-mid back rounded vowel.ogg"
+	},
+	{
+		"name": "Near-open front unrounded vowel",
+		"symbols": ["æ"],
+		"audio": "Near-open front unrounded vowel.ogg"
+	},
+	{
+		"name": "Near-open central vowel",
+		"symbols": ["ɐ"],
+		"audio": "Near-open central unrounded vowel.ogg"
+	},
+	{
+		"name": "Near-open central unrounded vowel",
+		"symbols": ["ɐ̜", "ɜ̞"],
+		"audio": "PR-near-open central unrounded vowel.ogg"
+	},
+	{ "name": "Near-open central rounded vowel", "symbols": ["ɐ̹", "ɞ̞"] },
+	{
+		"name": "Open front unrounded vowel",
+		"symbols": ["a", "æ̞"],
+		"audio": "PR-open front unrounded vowel.ogg"
+	},
+	{
+		"name": "Open front rounded vowel",
+		"symbols": ["ɶ"],
+		"audio": "Open front rounded vowel.ogg"
+	},
+	{
+		"name": "Open central unrounded vowel",
+		"symbols": ["ä", "ɑ̈", "ɐ̞"],
+		"audio": "Open central unrounded vowel.ogg"
+	},
+	{
+		"name": "Open central rounded vowel",
+		"symbols": ["ɒ̈", "ɶ̈"],
+		"audio": "Open central rounded vowel.ogg"
+	},
+	{
+		"name": "Open back unrounded vowel",
+		"symbols": ["ɑ"],
+		"audio": "Open back unrounded vowel.ogg"
+	},
+	{
+		"name": "Open back rounded vowel",
+		"symbols": ["ɒ"],
+		"audio": "PR-open back rounded vowel.ogg"
+	},
+	{
+		"name": "R-colored vowel",
+		"symbols": ["ɚ", "ɝ", "ɹ̩", "ɻ̍"],
+		"audio": "En-us-er.ogg"
+	},
+	{
+		"name": "Primary stress",
+		"symbols": ["ˈ"],
+		"article": "Stress (linguistics)"
+	},
+	{ "name": "Secondary stress", "symbols": ["ˌ"] },
+	{
+		"name": "Minor (foot) group",
+		"symbols": ["|"],
+		"article": "Prosodic unit"
+	},
+	{
+		"name": "Major (intonation) group",
+		"symbols": ["‖"],
+		"article": "Prosodic unit"
+	},
+	{ "name": "Syllable break", "symbols": ["."], "article": "Syllable" },
+	{
+		"name": "Linking (absence of a break)",
+		"symbols": ["‿"],
+		"article": "Connected speech"
+	},
+	{ "name": "Downstep", "symbols": ["ꜜ"] },
+	{ "name": "Upstep", "symbols": ["ꜛ"] },
+	{
+		"name": "Global rise",
+		"symbols": ["↗"],
+		"article": "Intonation (linguistics)"
+	},
+	{
+		"name": "Global fall",
+		"symbols": ["↘"],
+		"article": "Intonation (linguistics)"
+	},
+	{ "name": "Bilabial percussive", "symbols": ["ʬ"] },
+	{ "name": "Bidental percussive", "symbols": ["ʭ"] },
+	{ "name": "Velopharyngeal fricative", "symbols": ["ʩ"] },
+	{
+		"name": "Voiceless alveolar lateral–median fricative",
+		"symbols": ["ʪ"],
+		"article": "Lateral release (phonetics)"
+	},
+	{
+		"name": "Voiced alveolar lateral–median fricative",
+		"symbols": ["ʫ"],
+		"article": "Lateral release (phonetics)"
+	},
+	{
+		"name": "Ingressive airflow",
+		"symbols": ["↓"],
+		"article": "Ingressive sound"
+	},
+	{
+		"name": "Egressive airflow",
+		"symbols": ["↑"],
+		"article": "Egressive sound"
+	},
+	{
+		"name": "Apical r",
+		"symbols": ["ɹ̺"],
+		"article": "Pronunciation of English /r/"
+	},
+	{
+		"name": "Bunched r",
+		"symbols": ["ɹ̈"],
+		"article": "Pronunciation of English /r/"
+	},
+	{
+		"name": "Sublaminal lower alveolar percussive",
+		"symbols": ["¡"],
+		"article": "Percussive consonant"
+	},
+	{ "name": "Percussive alveolar click", "symbols": ["ǃ¡"] },
+	{
+		"name": "Buccal interdental trill",
+		"symbols": ["ↀr̪͆"],
+		"article": "Blowing a raspberry"
+	},
+	{
+		"name": "Morphological boundary",
+		"symbols": ["#"],
+		"article": "Word stem"
+	},
+	{ "name": "Zero", "symbols": ["∅"], "article": "Zero (linguistics)" }
+]

@@ -20,12 +20,23 @@ export default function FaqHelp() {
 					<span>How do I use this website?</span>
 					<p>Click on dark purple square to hear what sound each symbol has.</p>
 				</li>
-				<li id="#soundrights">
+				<li id="soundrights">
 					<span>Who recorded the sounds on this website?</span>
 					<p>
 						The sounds included are licensed under CC BY-SA 3.0 and are the
-						respective works of Peter Isotalo, User:Erutoon, User:TFighterPilot
-						and User:Adamsa123.
+						respective works of&nbsp;
+						<a href="https://en.wikipedia.org/wiki/User:Peter_Isotalo">
+							Peter Isotalo
+						</a>
+						, Erutoon,{" "}
+						<a href="https://en.wikipedia.org/wiki/User:TFighterPilot">
+							User:TFighterPilot
+						</a>{" "}
+						and{" "}
+						<a href="https://en.wiktionary.org/wiki/User:Adamsa123">
+							User:Adamsa123
+						</a>
+						.
 					</p>
 				</li>
 				<li>
@@ -39,7 +50,10 @@ export default function FaqHelp() {
 				</li>
 				<li>
 					<span>Can I contribute to this site?</span>
-					<p>You can contribute to this website on Github.</p>
+					<p>
+						You can contribute to this website on{" "}
+						<a href="https://github.com/serverhiccups/ipa-chart">Github</a>.
+					</p>
 				</li>
 				{/* <li>
 					<span>Can I have a biscuit?</span>

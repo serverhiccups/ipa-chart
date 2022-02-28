@@ -74,6 +74,10 @@ export default class Vowels extends Component<Props> {
 						);
 					})}
 				</div>
+				<span class={styles.infotext}>
+					Where symbols appear in pairs, the one to the right represents a
+					rounded vowel.
+				</span>
 			</div>
 		);
 	}

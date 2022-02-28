@@ -5,11 +5,17 @@ interface IPASymbolData {
 	vowels: Array<IPASymbolVowel>;
 	impossibleBlanks: Array<IPASymbolBlank>;
 	possibleBlanks: Array<IPASymbolBlank>;
+	nonpulmonic: {
+		clicks: Array<IPASymbolAdditionalConsonant>;
+		implosives: Array<IPASymbolAdditionalConsonant>;
+		ejectives: Array<IPASymbolAdditionalConsonant>;
+	};
 	labels: {
 		cplaces: Array<string>;
 		cmanners: Array<string>;
 		vtop: Array<string>;
 		vside: Array<string>;
+		nonpulmonic: Array<string>;
 	};
 }
 
@@ -31,6 +37,10 @@ export interface IPASymbolVowel extends IPASymbol {
 	row: number;
 	place: number;
 	rounded: boolean;
+}
+
+export interface IPASymbolAdditionalConsonant extends IPASymbol {
+	description?: string;
 }
 
 export interface IPASymbol {
