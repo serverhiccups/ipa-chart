@@ -20,8 +20,8 @@
 	"homepage": "https://github.com/serverhiccups/ipa-chart#readme",
 	"private": true,
 	"devDependencies": {
-		"@parcel/transformer-sass": "^2.2.1",
-		"parcel": "^2.2.1",
+		"@parcel/transformer-sass": "^2.3.2",
+		"parcel": "^2.3.2",
 		"parcel-reporter-static-files-copy": "^1.3.4"
 	},
 	"dependencies": {

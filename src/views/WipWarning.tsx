@@ -3,6 +3,7 @@ import { h, Fragment } from "preact";
 import styles from "../styles/wip-warning.module.scss";
 
 export default function WipWarning() {
+	//@ts-ignore
 	if (process.env.NODE_ENV !== "production") return <></>;
 	return (
 		<div class={styles.wipwarning}>

@@ -52,13 +52,30 @@ export default function NonPulmonic(props: Props) {
 					</div>
 				);
 			})}
+			<div
+				class={styles.item}
+				style={{
+					gridColumn: 3,
+					gridRow: 3,
+				}}
+			>
+				<IPASymbolView
+					symbol={{ character: "ʼ", kind: "EXAMPLE", name: "Ejectives" }}
+					style={{
+						cursor: "default",
+						backgroundColor: "var(--disabled-colour)",
+						// color: "black",
+					}}
+				></IPASymbolView>
+				<span>Examples:</span>
+			</div>
 			{props.model.data.nonpulmonic.ejectives.map((c, i) => {
 				return (
 					<div
 						class={styles.item}
 						style={{
 							gridColumn: 3,
-							gridRow: i + 3,
+							gridRow: i + 4,
 						}}
 					>
 						<IPASymbolView symbol={c}></IPASymbolView>

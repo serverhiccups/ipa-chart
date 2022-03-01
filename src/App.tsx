@@ -11,6 +11,7 @@ import FaqHelp from "./views/FaqHelp";
 import style from "./styles/app.module.scss";
 import WipWarning from "./views/WipWarning";
 import NonPulmonic from "./views/NonPulmonic";
+import OtherSymbols from "./views/OtherSymbols";
 
 interface Props {
 	controller: Controller;
@@ -37,7 +38,18 @@ export default class App extends Component<Props> {
 							model={this.controller.ipaSymbolModel}
 						></MainConsonants>
 						<Vowels model={this.controller.ipaSymbolModel}></Vowels>
-						<NonPulmonic model={this.controller.ipaSymbolModel} />
+						<div
+							style={{
+								display: "flex",
+								flexDirection: "column",
+								gap: "1rem",
+							}}
+						>
+							<NonPulmonic model={this.controller.ipaSymbolModel} />
+							<OtherSymbols
+								model={this.controller.ipaSymbolModel}
+							></OtherSymbols>
+						</div>
 						<FaqHelp />
 					</div>
 				</div>

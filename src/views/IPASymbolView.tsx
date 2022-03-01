@@ -35,7 +35,9 @@ export default function IPASymbolView(props: Props) {
 							}
 						)}
 						onClick={() => {
-							player.play(`/sounds/${props.symbol.audio}`);
+							if (props.symbol.audio) {
+								player.play(`/sounds/${props.symbol.audio}`);
+							}
 						}}
 						title={props.symbol.name}
 					>

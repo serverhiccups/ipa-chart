@@ -10,6 +10,7 @@ interface IPASymbolData {
 		implosives: Array<IPASymbolAdditionalConsonant>;
 		ejectives: Array<IPASymbolAdditionalConsonant>;
 	};
+	others: Array<IPASymbolAdditionalConsonant>;
 	labels: {
 		cplaces: Array<string>;
 		cmanners: Array<string>;

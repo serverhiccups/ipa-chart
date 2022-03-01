@@ -827,9 +827,93 @@
 				"description": "Bilabial",
 				"character": "pʼ",
 				"audio": "Bilabial Ejective.ogg"
+			},
+			{
+				"kind": "EJECTIVE",
+				"name": "Dental/alveolar Ejective",
+				"description": "Dental/alveolar",
+				"character": "tʼ",
+				"audio": "Dental-alveolar Ejective.ogg"
+			},
+			{
+				"kind": "EJECTIVE",
+				"name": "Velar Ejective",
+				"description": "Velar",
+				"character": "kʼ",
+				"audio": "Velar Ejective.ogg"
+			},
+			{
+				"kind": "EJECTIVE",
+				"name": "Alveolar Fricative Ejective",
+				"description": "Alveolar Fricative",
+				"character": "sʼ",
+				"audio": "Alveolar Fricative Ejective.ogg"
 			}
 		]
 	},
+	"others": [
+		{
+			"kind": "OTHER",
+			"name": "Voiceless Labial-velar Fricative",
+			"character": "ʍ",
+			"audio": "Voiceless Labial-velar Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiced Labial-velar Fricative",
+			"character": "w",
+			"audio": "Voiced Labial-velar Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiced Labial-palatal Approximant",
+			"character": "ɥ",
+			"audio": "Voiced Labial-palatal Approximant.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiceless Epigottal Fricative",
+			"character": "ʜ",
+			"audio": "Voiceless Epigottal Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiced Epigottal Fricative",
+			"character": "ʢ",
+			"audio": "Voiced Epigottal Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Epiglottal Plosive",
+			"character": "ʡ",
+			"audio": "Epiglottal Plosive.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiceless Alveolo-palatal Fricative",
+			"character": "ɕ",
+			"audio": "Voiceless Alveolo-palatal Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiced Alveolo-palatal Fricative",
+			"character": "ʑ",
+			"audio": "Voiced Alveolo-palatal Fricative.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Voiced Alveolar Lateral Flap",
+			"character": "ɺ",
+			"audio": "Voiced Alveolar Lateral Flap.ogg"
+		},
+		{
+			"kind": "OTHER",
+			"name": "Sj-sound",
+			"character": "ɧ",
+			"description": "Sj-sound (varies by region)",
+			"audio": "Sj-sound.ogg"
+		}
+	],
 	"impossibleBlanks": [
 		{ "column": 19, "row": 0, "width": 1 },
 		{ "column": 21, "row": 0, "width": 1 },

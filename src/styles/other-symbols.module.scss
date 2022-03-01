@@ -1,0 +1,32 @@
+.othersymbols {
+	max-width: 100%;
+	width: 100%;
+	& > .title {
+		height: 3.25rem;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		font-size: 2rem;
+	}
+	& > .list {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		gap: 0.25rem;
+		height: 11.5rem;
+		align-content: space-between;
+		& > * {
+			// width: 11.5rem;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 0.5rem;
+			width: calc(50% - 0.25rem);
+			& > span {
+				overflow-wrap: break-word;
+			}
+		}
+	}
+}

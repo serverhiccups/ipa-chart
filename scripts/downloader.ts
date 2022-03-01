@@ -55,6 +55,7 @@ symbolData.nonpulmonic.ejectives = symbolData.nonpulmonic.ejectives.reduce(
 	findMatch,
 	[]
 );
+symbolData.others = symbolData.others.reduce(findMatch, []);
 
 await Deno.writeTextFile("./symbol-data-new.json", JSON.stringify(symbolData));
 
