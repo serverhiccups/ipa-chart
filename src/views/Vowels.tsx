@@ -22,59 +22,49 @@ interface Props {
 	model: IPASymbolModel;
 }
 
-export default class Vowels extends Component<Props> {
-	model: IPASymbolModel;
-
-	constructor(props: Props) {
-		super(props);
-		this.model = props.model;
-	}
-
-	render() {
-		return (
-			<div class={styles.vowels}>
-				<div class={styles.title}>
-					<span>Vowels</span>
-				</div>
-				{this.model.data.labels.vtop.map((l, i) => {
-					return (
-						<div class={styles.toplabel} id={styles["toplabel-" + i]}>
-							<span>{l}</span>
-						</div>
-					);
-				})}
-				{this.model.data.labels.vside.map((l, i) => {
-					return (
-						<div class={styles.sidelabel} id={styles["sidelabel-" + i]}>
-							<span>{l}</span>
-						</div>
-					);
-				})}
-				<div class={styles.grid}>
-					<img
-						class={styles.lines}
-						src={vowelGrid.toString()}
-						alt="The vowel grid chart"
-					/>
-					{this.model.data.vowels.map((v) => {
-						return (
-							<IPASymbolView
-								style={{
-									gridRow: `row-start ${v.row + 1}  / row-end ${v.row + 1}`,
-									gridColumn: "el-left / el-right",
-									marginLeft:
-										centers[v.place] + (v.rounded ? 1.5 : -1.5) + "rem",
-								}}
-								symbol={v}
-							></IPASymbolView>
-						);
-					})}
-				</div>
-				<span class={styles.infotext}>
-					Where symbols appear in pairs, the one to the right represents a
-					rounded vowel.
-				</span>
+export default function Vowels(props: Props) {
+	return (
+		<div class={styles.vowels}>
+			<div class={styles.title}>
+				<span>Vowels</span>
 			</div>
-		);
-	}
+			{props.model.data.labels.vtop.map((l, i) => {
+				return (
+					<div class={styles.toplabel} id={styles["toplabel-" + i]}>
+						<span>{l}</span>
+					</div>
+				);
+			})}
+			{props.model.data.labels.vside.map((l, i) => {
+				return (
+					<div class={styles.sidelabel} id={styles["sidelabel-" + i]}>
+						<span>{l}</span>
+					</div>
+				);
+			})}
+			<div class={styles.grid}>
+				<img
+					class={styles.lines}
+					src={vowelGrid.toString()}
+					alt="The vowel grid chart"
+				/>
+				{props.model.data.vowels.map((v) => {
+					return (
+						<IPASymbolView
+							style={{
+								gridRow: `row-start ${v.row + 1}  / row-end ${v.row + 1}`,
+								gridColumn: "el-left / el-right",
+								marginLeft: centers[v.place] + (v.rounded ? 1.5 : -1.5) + "rem",
+							}}
+							symbol={v}
+						></IPASymbolView>
+					);
+				})}
+			</div>
+			<span class={styles.infotext}>
+				Where symbols appear in pairs, the one to the right represents a rounded
+				vowel.
+			</span>
+		</div>
+	);
 }
