@@ -1,59 +1,45 @@
-import { h, Component, createContext } from "preact";
+import { h } from "preact";
+import { useState } from "preact/hooks";
 
-import Controller from "./controllers/Controller";
 import { AudioPlayer, AudioPlayerContext } from "./AudioPlayer";
+import IPASymbolModel from "./models/IPASymbolModel";
 
 import Navbar from "./views/Navbar";
 import MainConsonants from "./views/MainConsonants";
 import Vowels from "./views/Vowels";
 import FaqHelp from "./views/FaqHelp";
-
-import style from "./styles/app.module.scss";
 import WipWarning from "./views/WipWarning";
 import NonPulmonic from "./views/NonPulmonic";
 import OtherSymbols from "./views/OtherSymbols";
 
-interface Props {
-	controller: Controller;
-}
+import style from "./styles/app.module.scss";
 
-export default class App extends Component<Props> {
-	controller: Controller;
-	audioPlayer: AudioPlayer;
+const audioPlayer = new AudioPlayer();
 
-	constructor(props: Props) {
-		super(props);
-		this.controller = props.controller;
-		this.audioPlayer = new AudioPlayer();
-	}
+export default function App() {
+	const [symbolModel] = useState(new IPASymbolModel());
 
-	render() {
-		return (
-			<AudioPlayerContext.Provider value={this.audioPlayer}>
-				<div id="app">
-					<Navbar />
-					<div class={style.charts}>
-						<WipWarning />
-						<MainConsonants
-							model={this.controller.ipaSymbolModel}
-						></MainConsonants>
-						<Vowels model={this.controller.ipaSymbolModel}></Vowels>
-						<div
-							style={{
-								display: "flex",
-								flexDirection: "column",
-								gap: "1rem",
-							}}
-						>
-							<NonPulmonic model={this.controller.ipaSymbolModel} />
-							<OtherSymbols
-								model={this.controller.ipaSymbolModel}
-							></OtherSymbols>
-						</div>
-						<FaqHelp />
+	return (
+		<AudioPlayerContext.Provider value={audioPlayer}>
+			<div id="app">
+				<Navbar />
+				<div class={style.charts}>
+					<WipWarning />
+					<MainConsonants model={symbolModel}></MainConsonants>
+					<Vowels model={symbolModel}></Vowels>
+					<div
+						style={{
+							display: "flex",
+							flexDirection: "column",
+							gap: "1rem",
+						}}
+					>
+						<NonPulmonic model={symbolModel} />
+						<OtherSymbols model={symbolModel}></OtherSymbols>
 					</div>
+					<FaqHelp />
 				</div>
-			</AudioPlayerContext.Provider>
-		);
-	}
+			</div>
+		</AudioPlayerContext.Provider>
+	);
 }

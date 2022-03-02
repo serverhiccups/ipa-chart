@@ -2,7 +2,7 @@ import { h } from "preact";
 
 import style from "../styles/navbar.module.scss";
 
-export default function Navbar(props) {
+export default function Navbar() {
 	return (
 		<nav class={style.navbar}>
 			<span>The International Phonetic Alphabet</span>

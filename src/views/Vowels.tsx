@@ -1,7 +1,4 @@
 import { h, Component } from "preact";
-import { css } from "@emotion/css";
-
-import Controller from "../controllers/Controller";
 import IPASymbolModel from "../models/IPASymbolModel";
 
 import styles from "../styles/vowels.module.scss";
@@ -10,7 +7,6 @@ const vowelGrid = new URL("../../assets/vowel-grid.svg", import.meta.url);
 
 function centerPoints() {
 	const svgWidth = 810;
-	const svgHeight = 610;
 	const svgHeightEm = 21;
 	const scaleFactor = svgHeightEm / svgWidth;
 	const centersPixels = [
@@ -29,7 +25,7 @@ interface Props {
 export default class Vowels extends Component<Props> {
 	model: IPASymbolModel;
 
-	constructor(props) {
+	constructor(props: Props) {
 		super(props);
 		this.model = props.model;
 	}

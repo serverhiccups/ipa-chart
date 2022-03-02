@@ -1,4 +1,4 @@
-import dataFile from "../../data/symbol-data.json";
+import dataFile from "../../assets/symbol-data.json";
 
 interface IPASymbolData {
 	consonants: Array<IPASymbolMainConsonant>;
