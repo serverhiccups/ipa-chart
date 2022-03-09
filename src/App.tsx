@@ -24,7 +24,7 @@ export default function App() {
 			<div id="app">
 				<Navbar />
 				<div class={style.charts}>
-					<WipWarning />
+					{/* <WipWarning /> */}
 					<MainConsonants model={symbolModel}></MainConsonants>
 					<Vowels model={symbolModel}></Vowels>
 					<div
